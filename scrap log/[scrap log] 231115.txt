@@ -1,0 +1,647 @@
+/root/playground/techforimpact/API-scrap-and-analysis/scrap/utils/spreadsheet.py:61: DeprecationWarning: [Deprecated][in version 6.0.0]: client_factory will be replaced by gspread.http_client types
+  client: gspread.client.Client = google_authorization()
+| 1 | []
+| 2 | [Councilor(name='길기영', jdName='무소속'), Councilor(name='윤판오', jdName='더불어민주당'), Councilor(name='이정미', jdName='더불어민주당'), Councilor(name='송재천', jdName='더불어민주당'), Councilor(name='조미정', jdName='더불어민주당'), Councilor(name='손주하', jdName='국민의힘'), Councilor(name='소재권', jdName='국민의힘'), Councilor(name='허상욱', jdName='국민의힘'), Councilor(name='양은미', jdName='국민의힘')]
+| 3 | [Councilor(name='오천진', jdName='국민의힘'), Councilor(name='황금선', jdName='더불어민주당'), Councilor(name='이미재', jdName='국민의힘'), Councilor(name='김형원', jdName='더불어민주당'), Councilor(name='권두성', jdName='국민의힘'), Councilor(name='김송환', jdName='국민의힘'), Councilor(name='함대건', jdName='더불어민주당'), Councilor(name='백준석', jdName='더불어민주당'), Councilor(name='김성철', jdName='국민의힘'), Councilor(name='장정호', jdName='더불어민주당'), Councilor(name='김선영', jdName='더불어민주당'), Councilor(name='윤정회', jdName='더불어민주당'), Councilor(name='이인호', jdName='국민의힘')]
+| 4 | [Councilor(name='엄경석', jdName='국민의힘'), Councilor(name='양옥희', jdName='더불어민주당'), Councilor(name='박성근', jdName='더불어민주당'), Councilor(name='남연희', jdName='더불어민주당'), Councilor(name='전종균', jdName='더불어민주당'), Councilor(name='정교진', jdName='국민의힘'), Councilor(name='박영희', jdName='국민의힘'), Councilor(name='오천수', jdName='더불어민주당'), Councilor(name='장지만', jdName='더불어민주당'), Councilor(name='김현주', jdName='더불어민주당'), Councilor(name='고용필', jdName='더불어민주당'), Councilor(name='주복중', jdName='국민의힘'), Councilor(name='이영심', jdName='더불어민주당'), Councilor(name='이현숙', jdName='국민의힘')]
+| 5 | [Councilor(name='추윤구', jdName='무소속'), Councilor(name='신진호', jdName='국민의힘'), Councilor(name='장길천', jdName='더불어민주당'), Councilor(name='김미영', jdName='더불어민주당'), Councilor(name='김강산', jdName='국민의힘'), Councilor(name='고양석', jdName='더불어민주당'), Councilor(name='전은혜', jdName='국민의힘'), Councilor(name='이동길', jdName='더불어민주당'), Councilor(name='김상배', jdName='국민의힘'), Councilor(name='김상희', jdName='국민의힘'), Councilor(name='최일환', jdName='국민의힘'), Councilor(name='허은', jdName='더불어민주당'), Councilor(name='고상순', jdName='국민의힘'), Councilor(name='서민우', jdName='더불어민주당')]
+| 6 | [Councilor(name='김세종', jdName='국민의힘'), Councilor(name='김용호', jdName='더불어민주당'), Councilor(name='김창규', jdName='더불어민주당'), Councilor(name='김학두', jdName='국민의힘'), Councilor(name='노연우', jdName='더불어민주당'), Councilor(name='박남규', jdName='더불어민주당'), Councilor(name='서정인', jdName='더불어민주당'), Councilor(name='성해란', jdName='국민의힘'), Councilor(name='손세영', jdName='더불어민주당'), Councilor(name='안태민', jdName='국민의힘'), Councilor(name='이강숙', jdName='더불어민주당'), Councilor(name='이규서', jdName='국민의힘'), Councilor(name='이재선', jdName='국민의힘'), Councilor(name='이태인', jdName='더불어민주당'), Councilor(name='장성운', jdName='더불어민주당'), Councilor(name='정서윤', jdName='더불어민주당'), Councilor(name='정성영', jdName='국민의힘'), Councilor(name='최영숙', jdName='국민의힘'), Councilor(name='한지엽', jdName='국민의힘')]
+| 7 | [Councilor(name='고강섭', jdName='더불어민주당'), Councilor(name='김미애', jdName='더불어민주당'), Councilor(name='김민주', jdName='더불어민주당'), Councilor(name='나은하', jdName='더불어민주당'), Councilor(name='박열완', jdName='더불어민주당'), Councilor(name='신예진', jdName='국민의힘'), Councilor(name='이윤재', jdName='더불어민주당'), Councilor(name='이은경', jdName='국민의힘'), Councilor(name='전경구', jdName='국민의힘'), Councilor(name='전유정', jdName='국민의힘'), Councilor(name='조성연', jdName='국민의힘'), Councilor(name='조현우', jdName='국민의힘'), Councilor(name='주덕성', jdName='국민의힘'), Councilor(name='최경보', jdName='더불어민주당'), Councilor(name='최윤찬', jdName='국민의힘'), Councilor(name='최은주', jdName='더불어민주당'), Councilor(name='한성수', jdName='국민의힘')]
+| 8 | [Councilor(name='오중균', jdName='더불어민주당'), Councilor(name='임현주', jdName='국민의힘'), Councilor(name='강수진', jdName='국민의힘'), Councilor(name='경수현', jdName='더불어민주당'), Councilor(name='고영옥', jdName='국민의힘'), Councilor(name='권영애', jdName='국민의힘'), Councilor(name='김경이', jdName='더불어민주당'), Councilor(name='김육영', jdName='더불어민주당'), Councilor(name='박영섭', jdName='국민의힘'), Councilor(name='소형준', jdName='더불어민주당'), Councilor(name='양순임', jdName='더불어민주당'), Councilor(name='이관우', jdName='국민의힘'), Councilor(name='이용진', jdName='더불어민주당'), Councilor(name='이인순', jdName='더불어민주당'), Councilor(name='이일준', jdName='국민의힘'), Councilor(name='이호건', jdName='더불어민주당'), Councilor(name='임태근', jdName='더불어민주당'), Councilor(name='정기혁', jdName='국민의힘'), Councilor(name='정병기', jdName='국민의힘'), Councilor(name='정윤주', jdName='더불어민주당'), Councilor(name='정해숙', jdName='더불어민주당'), Councilor(name='진선아', jdName='국민의힘')]
+| 9 | [Councilor(name='곽인혜', jdName='더불어민주당'), Councilor(name='김명희', jdName='더불어민주당'), Councilor(name='노윤상', jdName='국민의힘'), Councilor(name='박철우', jdName='더불어민주당'), Councilor(name='심재억', jdName='더불어민주당'), Councilor(name='유인애', jdName='국민의힘'), Councilor(name='윤성자', jdName='국민의힘'), Councilor(name='이상수', jdName='더불어민주당'), Councilor(name='정초립', jdName='국민의힘'), Councilor(name='조윤섭', jdName='국민의힘'), Councilor(name='최미경', jdName='더불어민주당'), Councilor(name='최인준', jdName='더불어민주당'), Councilor(name='최치효', jdName='더불어민주당'), Councilor(name='허광행', jdName='더불어민주당')]
+| 10 | [Councilor(name='강신만', jdName='국민의힘'), Councilor(name='강철웅', jdName='더불어민주당'), Councilor(name='이성민', jdName='더불어민주당'), Councilor(name='강혜란', jdName='국민의힘'), Councilor(name='정승구', jdName='국민의힘'), Councilor(name='안병건', jdName='국민의힘'), Councilor(name='이호석', jdName='국민의힘'), Councilor(name='박상근', jdName='더불어민주당'), Councilor(name='황수빈', jdName='국민의힘'), Councilor(name='고금숙', jdName='국민의힘'), Councilor(name='손혜영', jdName='더불어민주당'), Councilor(name='이강주', jdName='국민의힘'), Councilor(name='이태용', jdName='더불어민주당'), Councilor(name='홍은정', jdName='더불어민주당')]
+| 11 | [Councilor(name='김준성', jdName='더불어민주당'), Councilor(name='손명영', jdName='국민의힘'), Councilor(name='오금란', jdName='더불어민주당'), Councilor(name='안복동', jdName='더불어민주당'), Councilor(name='배준경', jdName='국민의힘'), Councilor(name='부준혁', jdName='더불어민주당'), Councilor(name='손영준', jdName='더불어민주당'), Councilor(name='김경태', jdName='국민의힘'), Councilor(name='강금희', jdName='더불어민주당'), Councilor(name='차미중', jdName='더불어민주당'), Councilor(name='조윤도', jdName='국민의힘'), Councilor(name='어정화', jdName='국민의힘'), Councilor(name='김소라', jdName='더불어민주당'), Councilor(name='정영기', jdName='국민의힘'), Councilor(name='윤선희', jdName='더불어민주당'), Councilor(name='노연수', jdName='더불어민주당'), Councilor(name='박이강', jdName='더불어민주당'), Councilor(name='김기범', jdName='국민의힘'), Councilor(name='유웅상', jdName='국민의힘'), Councilor(name='이용아', jdName='국민의힘'), Councilor(name='최나영', jdName='진보당')]
+| 12 | [Councilor(name='권인경', jdName='더불어민주당'), Councilor(name='기노만', jdName='더불어민주당'), Councilor(name='김승엽', jdName='국민의힘'), Councilor(name='김윤희', jdName='더불어민주당'), Councilor(name='박성도', jdName='국민의힘'), Councilor(name='박세은', jdName='국민의힘'), Councilor(name='송영창', jdName='더불어민주당'), Councilor(name='신봉규', jdName='국민의힘'), Councilor(name='신현일', jdName='더불어민주당'), Councilor(name='양기열', jdName='국민의힘'), Councilor(name='오영열', jdName='더불어민주당'), Councilor(name='이경구', jdName='더불어민주당'), Councilor(name='이경술', jdName='국민의힘'), Councilor(name='이동식', jdName='더불어민주당'), Councilor(name='이미경', jdName='더불어민주당'), Councilor(name='장연순', jdName='더불어민주당'), Councilor(name='정병호', jdName='국민의힘'), Councilor(name='최락의', jdName='국민의힘'), Councilor(name='황재원', jdName='국민의힘')]
+| 13 | [Councilor(name='이동화', jdName='더불어민주당'), Councilor(name='이종석', jdName='더불어민주당'), Councilor(name='이용준', jdName='국민의힘'), Councilor(name='김덕현', jdName='더불어민주당'), Councilor(name='서호성', jdName='더불어민주당'), Councilor(name='강민하', jdName='국민의힘'), Councilor(name='김양희', jdName='더불어민주당'), Councilor(name='박경희', jdName='더불어민주당'), Councilor(name='박진우', jdName='국민의힘'), Councilor(name='안양식', jdName='더불어민주당'), Councilor(name='윤유현', jdName='더불어민주당'), Councilor(name='이경선', jdName='국민의힘'), Councilor(name='이진삼', jdName='국민의힘'), Councilor(name='주이삭', jdName='국민의힘'), Councilor(name='홍정희', jdName='국민의힘')]
+| 14 | [Councilor(name='강동오', jdName='국민의힘'), Councilor(name='강동오', jdName='국민의힘'), Councilor(name='고병준', jdName='더불어민주당'), Councilor(name='권영숙', jdName='더불어민주당'), Councilor(name='권인순', jdName='국민의힘'), Councilor(name='김승수', jdName='국민의힘'), Councilor(name='김영미', jdName='더불어민주당'), Councilor(name='남해석', jdName='더불어민주당'), Councilor(name='백남환', jdName='국민의힘'), Councilor(name='신종갑', jdName='더불어민주당'), Councilor(name='안미자', jdName='국민의힘'), Councilor(name='오옥자', jdName='국민의힘'), Councilor(name='이상원', jdName='국민의힘'), Councilor(name='이한동', jdName='국민의힘'), Councilor(name='장정희', jdName='더불어민주당'), Councilor(name='차해영', jdName='더불어민주당'), Councilor(name='채우진', jdName='더불어민주당'), Councilor(name='최은하', jdName='더불어민주당'), Councilor(name='한선미', jdName='더불어민주당'), Councilor(name='홍지광', jdName='국민의힘')]
+| 15 | [Councilor(name='이재식', jdName='국민의힘'), Councilor(name='이수옥', jdName='더불어민주당'), Councilor(name='정택진', jdName='국민의힘'), Councilor(name='유영주', jdName='더불어민주당'), Councilor(name='이재웅', jdName='더불어민주당'), Councilor(name='임정옥', jdName='더불어민주당'), Councilor(name='임옥연', jdName='무소속'), Councilor(name='공기환', jdName='국민의힘'), Councilor(name='임준희', jdName='국민의힘'), Councilor(name='윤인숙', jdName='더불어민주당'), Councilor(name='최혜숙', jdName='국민의힘'), Councilor(name='김광성', jdName='더불어민주당'), Councilor(name='김수진', jdName='국민의힘'), Councilor(name='황민철', jdName='국민의힘'), Councilor(name='오해정', jdName='더불어민주당'), Councilor(name='옥동준', jdName='더불어민주당'), Councilor(name='신우정', jdName='국민의힘'), Councilor(name='곽고은', jdName='더불어민주당')]
+| 16 | [Councilor(name='박성호', jdName='더불어민주당'), Councilor(name='김희동', jdName='국민의힘'), Councilor(name='정정희', jdName='무소속'), Councilor(name='조기만', jdName='더불어민주당'), Councilor(name='전철규', jdName='무소속'), Councilor(name='김현진', jdName='국민의힘'), Councilor(name='김순옥', jdName='국민의힘'), Councilor(name='김민석', jdName='무소속'), Councilor(name='최세진', jdName='더불어민주당'), Councilor(name='김성한', jdName='더불어민주당'), Councilor(name='김현진', jdName='국민의힘'), Councilor(name='정정희', jdName='무소속'), Councilor(name='박학용', jdName='국민의힘'), Councilor(name='김희동', jdName='국민의힘'), Councilor(name='한상욱', jdName='더불어민주당'), Councilor(name='고찬양', jdName='더불어민주당'), Councilor(name='강선영', jdName='더불어민주당'), Councilor(name='김순옥', jdName='국민의힘'), Councilor(name='박성호', jdName='더불어민주당'), Councilor(name='정장훈', jdName='국민의힘'), Councilor(name='박주선', jdName='더불어민주당'), Councilor(name='김지수', jdName='국민의힘'), Councilor(name='신찬호', jdName='국민의힘'), Councilor(name='최세진', jdName='더불어민주당'), Councilor(name='이종숙', jdName='국민의힘'), Councilor(name='전철규', jdName='무소속'), Councilor(name='이충현', jdName='국민의힘'), Councilor(name='조기만', jdName='더불어민주당'), Councilor(name='김민석', jdName='무소속'), Councilor(name='홍재희', jdName='더불어민주당'), Councilor(name='정재봉', jdName='국민의힘')]
+| 17 | [Councilor(name='곽윤희', jdName='국민의힘'), Councilor(name='김영곤', jdName='더불어민주당'), Councilor(name='이명숙', jdName='국민의힘'), Councilor(name='곽노혁', jdName='국민의힘'), Councilor(name='노경숙', jdName='더불어민주당'), Councilor(name='변정열', jdName='더불어민주당'), Councilor(name='홍용민', jdName='국민의힘'), Councilor(name='정대근', jdName='국민의힘'), Councilor(name='양명희', jdName='더불어민주당'), Councilor(name='김철수', jdName='더불어민주당'), Councilor(name='김용권', jdName='국민의힘'), Councilor(name='방은경', jdName='국민의힘'), Councilor(name='최태영', jdName='더불어민주당'), Councilor(name='김철수', jdName='국민의힘'), Councilor(name='전미숙', jdName='국민의힘'), Councilor(name='김미주', jdName='더불어민주당')]
+정보 없음이 포함되어 있습니다.
+| 18 | [Councilor(name='고영찬', jdName='정당 정보 없음'), Councilor(name='이인식', jdName='정당 정보 없음'), Councilor(name='김용술', jdName='정당 정보 없음'), Councilor(name='도병두', jdName='정당 정보 없음'), Councilor(name='정순기', jdName='정당 정보 없음'), Councilor(name='장규권', jdName='정당 정보 없음'), Councilor(name='정재동', jdName='정당 정보 없음'), Councilor(name='엄샛별', jdName='정당 정보 없음'), Councilor(name='윤영희', jdName='정당 정보 없음'), Councilor(name='고성미', jdName='정당 정보 없음')]
+| 19 | [Councilor(name='김지연', jdName='더불어민주당'), Councilor(name='남완현', jdName='국민의힘'), Councilor(name='박현우', jdName='국민의힘'), Councilor(name='신흥식', jdName='더불어민주당'), Councilor(name='양송이', jdName='더불어민주당'), Councilor(name='우경란', jdName='국민의힘'), Councilor(name='유승용', jdName='더불어민주당'), Councilor(name='이규선', jdName='국민의힘'), Councilor(name='이성수', jdName='국민의힘'), Councilor(name='이순우', jdName='국민의힘'), Councilor(name='이예찬', jdName='더불어민주당'), Councilor(name='임헌호', jdName='더불어민주당'), Councilor(name='전승관', jdName='더불어민주당'), Councilor(name='정선희', jdName='더불어민주당'), Councilor(name='차인영', jdName='국민의힘'), Councilor(name='최봉희', jdName='국민의힘'), Councilor(name='최인순', jdName='더불어민주당')]
+| 20 | [Councilor(name='정재천', jdName='국민의힘'), Councilor(name='신동철', jdName='더불어민주당'), Councilor(name='조진희', jdName='더불어민주당'), Councilor(name='김효숙', jdName='국민의힘'), Councilor(name='민경희', jdName='국민의힘'), Councilor(name='이지희', jdName='더불어민주당'), Councilor(name='장순욱', jdName='국민의힘'), Councilor(name='이주현', jdName='더불어민주당'), Councilor(name='신민희', jdName='더불어민주당'), Councilor(name='정세열', jdName='국민의힘'), Councilor(name='정유나', jdName='국민의힘'), Councilor(name='김은하', jdName='더불어민주당'), Councilor(name='이미연', jdName='국민의힘'), Councilor(name='변종득', jdName='국민의힘'), Councilor(name='노성철', jdName='더불어민주당'), Councilor(name='김영림', jdName='국민의힘'), Councilor(name='이영주', jdName='더불어민주당')]
+| 21 | [Councilor(name='구가환', jdName='국민의힘'), Councilor(name='구자민', jdName='국민의힘'), Councilor(name='김순미', jdName='더불어민주당'), Councilor(name='김연옥', jdName='국민의힘'), Councilor(name='노광자', jdName='더불어민주당'), Councilor(name='민영진', jdName='국민의힘'), Councilor(name='박용규', jdName='더불어민주당'), Councilor(name='손숙희', jdName='더불어민주당'), Councilor(name='안한영', jdName='국민의힘'), Councilor(name='이경관', jdName='국민의힘'), Councilor(name='이동일', jdName='국민의힘'), Councilor(name='이종윤', jdName='더불어민주당'), Councilor(name='임창빈', jdName='국민의힘'), Councilor(name='임춘수', jdName='더불어민주당'), Councilor(name='위성경', jdName='더불어민주당'), Councilor(name='장동식', jdName='국민의힘'), Councilor(name='장현수', jdName='국민의힘'), Councilor(name='정현일', jdName='더불어민주당'), Councilor(name='주무열', jdName='더불어민주당'), Councilor(name='주순자', jdName='더불어민주당'), Councilor(name='최인호', jdName='국민의힘'), Councilor(name='표태룡', jdName='더불어민주당')]
+| 22 | [Councilor(name='오세철', jdName='국민의힘'), Councilor(name='안종숙', jdName='더불어민주당'), Councilor(name='박미정', jdName='국민의힘'), Councilor(name='고선재', jdName='국민의힘'), Councilor(name='김성주', jdName='국민의힘'), Councilor(name='이현숙', jdName='국민의힘'), Councilor(name='오지환', jdName='국민의힘'), Councilor(name='안병두', jdName='국민의힘'), Councilor(name='유지웅', jdName='국민의힘'), Councilor(name='강여정', jdName='더불어민주당'), Councilor(name='이형준', jdName='국민의힘'), Councilor(name='김지훈', jdName='국민의힘'), Councilor(name='박재형', jdName='더불어민주당'), Councilor(name='신정태', jdName='더불어민주당'), Councilor(name='하서영', jdName='더불어민주당'), Councilor(name='이은경', jdName='국민의힘')]
+| 23 | [Councilor(name='이호귀', jdName='국민의힘'), Councilor(name='김광심', jdName='더불어민주당'), Councilor(name='김영권', jdName='더불어민주당'), Councilor(name='김형대', jdName='국민의힘'), Councilor(name='전인수', jdName='국민의힘'), Councilor(name='이향숙', jdName='국민의힘'), Councilor(name='한윤수', jdName='국민의힘'), Councilor(name='복진경', jdName='더불어민주당'), Councilor(name='안지연', jdName='더불어민주당'), Councilor(name='이도희', jdName='국민의힘'), Councilor(name='박다미', jdName='더불어민주당'), Councilor(name='김현정', jdName='더불어민주당'), Councilor(name='강을석', jdName='국민의힘'), Councilor(name='황영각', jdName='국민의힘'), Councilor(name='이성수', jdName='국민의힘'), Councilor(name='김형곤', jdName='더불어민주당'), Councilor(name='김진경', jdName='더불어민주당'), Councilor(name='손민기', jdName='국민의힘'), Councilor(name='김민경', jdName='국민의힘'), Councilor(name='우종혁', jdName='국민의힘'), Councilor(name='이동호', jdName='국민의힘'), Councilor(name='노애자', jdName='국민의힘'), Councilor(name='오온누리', jdName='더불어민주당')]
+| 24 | [Councilor(name='박경래', jdName='국민의힘'), Councilor(name='김정열', jdName='더불어민주당'), Councilor(name='김광철', jdName='국민의힘'), Councilor(name='김순애', jdName='국민의힘'), Councilor(name='조용근', jdName='더불어민주당'), Councilor(name='이하식', jdName='국민의힘'), Councilor(name='나봉숙', jdName='무소속'), Councilor(name='이혜숙', jdName='국민의힘'), Councilor(name='박성희', jdName='더불어민주당'), Councilor(name='손병화', jdName='국민의힘'), Councilor(name='김호재', jdName='더불어민주당'), Councilor(name='배신정', jdName='더불어민주당'), Councilor(name='박종현', jdName='더불어민주당'), Councilor(name='장종례', jdName='국민의힘'), Councilor(name='최옥주', jdName='더불어민주당'), Councilor(name='김성호', jdName='국민의힘'), Councilor(name='이강무', jdName='국민의힘'), Councilor(name='김행주', jdName='국민의힘'), Councilor(name='신영재', jdName='더불어민주당'), Councilor(name='김영심', jdName='국민의힘'), Councilor(name='장원만', jdName='국민의힘'), Councilor(name='정주리', jdName='더불어민주당'), Councilor(name='최상진', jdName='국민의힘'), Councilor(name='곽노상', jdName='국민의힘'), Councilor(name='전정', jdName='국민의힘'), Councilor(name='김샤인', jdName='더불어민주당')]
+| 25 | [Councilor(name='강유진', jdName='국민의힘'), Councilor(name='권혁주', jdName='더불어민주당'), Councilor(name='김기상', jdName='국민의힘'), Councilor(name='김남현', jdName='더불어민주당'), Councilor(name='남효선', jdName='국민의힘'), Councilor(name='문현섭', jdName='국민의힘'), Councilor(name='박원서', jdName='더불어민주당'), Councilor(name='서회원', jdName='국민의힘'), Councilor(name='심우열', jdName='더불어민주당'), Councilor(name='양평호', jdName='더불어민주당'), Councilor(name='원창희', jdName='더불어민주당'), Councilor(name='이동매', jdName='더불어민주당'), Councilor(name='이원국', jdName='더불어민주당'), Councilor(name='이희동', jdName='더불어민주당'), Councilor(name='정미옥', jdName='국민의힘'), Councilor(name='제갑섭', jdName='국민의힘'), Councilor(name='조동탁', jdName='국민의힘'), Councilor(name='한진수', jdName='국민의힘')]
+| 26 | [Councilor(name='이길희', jdName='국민의힘'), Councilor(name='이인구', jdName='국민의힘'), Councilor(name='강주희', jdName='국민의힘'), Councilor(name='강인규', jdName='더불어민주당'), Councilor(name='강희은', jdName='더불어민주당'), Councilor(name='최학철', jdName='더불어민주당'), Councilor(name='한지원', jdName='국민의힘')]
+| 27 | [Councilor(name='송상조', jdName='국민의힘'), Councilor(name='이석희', jdName='더불어민주당'), Councilor(name='황정재', jdName='더불어민주당'), Councilor(name='허승만', jdName='국민의힘'), Councilor(name='배은주', jdName='더불어민주당'), Councilor(name='이정향', jdName='더불어민주당'), Councilor(name='강석진', jdName='국민의힘'), Councilor(name='유성미', jdName='더불어민주당')]
+| 28 | [Councilor(name='이상욱', jdName='국민의힘'), Councilor(name='안종원', jdName='국민의힘'), Councilor(name='김재헌', jdName='국민의힘'), Councilor(name='이희자', jdName='더불어민주당'), Councilor(name='허근형', jdName='국민의힘'), Councilor(name='김희재', jdName='더불어민주당'), Councilor(name='김미연', jdName='국민의힘')]
+정보 없음이 포함되어 있습니다.
+| 29 | [Councilor(name='이경민', jdName='정당 정보 없음'), Councilor(name='김지영', jdName='정당 정보 없음'), Councilor(name='김은명', jdName='정당 정보 없음'), Councilor(name='신기삼', jdName='정당 정보 없음'), Councilor(name='서승환', jdName='정당 정보 없음'), Councilor(name='최찬훈', jdName='정당 정보 없음'), Councilor(name='김기탁', jdName='정당 정보 없음')]
+| 30 | [Councilor(name='강도희', jdName='더불어민주당'), Councilor(name='강지백', jdName='더불어민주당'), Councilor(name='곽사문', jdName='국민의힘'), Councilor(name='김민경', jdName='국민의힘'), Councilor(name='김진복', jdName='국민의힘'), Councilor(name='박광래', jdName='더불어민주당'), Councilor(name='박말숙', jdName='더불어민주당'), Councilor(name='박현철', jdName='국민의힘'), Councilor(name='성낙욱', jdName='국민의힘'), Councilor(name='성현옥', jdName='더불어민주당'), Councilor(name='손재호', jdName='더불어민주당'), Councilor(name='안수만', jdName='국민의힘'), Councilor(name='오우택', jdName='국민의힘'), Councilor(name='유제필', jdName='국민의힘'), Councilor(name='이분희', jdName='국민의힘'), Councilor(name='최정웅', jdName='더불어민주당'), Councilor(name='한갑용', jdName='더불어민주당'), Councilor(name='한일태', jdName='더불어민주당')]
+| 31 | [Councilor(name='정명규', jdName='국민의힘'), Councilor(name='전경문', jdName='더불어민주당'), Councilor(name='김미화', jdName='국민의힘'), Councilor(name='서덕미', jdName='국민의힘'), Councilor(name='천병준', jdName='더불어민주당'), Councilor(name='장영진', jdName='국민의힘'), Councilor(name='오영진', jdName='국민의힘'), Councilor(name='이규만', jdName='더불어민주당'), Councilor(name='조진우', jdName='국민의힘'), Councilor(name='탁영일', jdName='더불어민주당'), Councilor(name='허미연', jdName='국민의힘'), Councilor(name='이지영', jdName='더불어민주당'), Councilor(name='전두현', jdName='국민의힘'), Councilor(name='권영원', jdName='더불어민주당')]
+| 32 | [Councilor(name='고선화', jdName='국민의힘'), Councilor(name='김근우', jdName='더불어민주당'), Councilor(name='김철현', jdName='국민의힘'), Councilor(name='박경숙', jdName='국민의힘'), Councilor(name='박구슬', jdName='더불어민주당'), Councilor(name='박미순', jdName='국민의힘'), Councilor(name='박찬', jdName='더불어민주당'), Councilor(name='박창현', jdName='국민의힘'), Councilor(name='백석민', jdName='더불어민주당'), Councilor(name='서성부', jdName='국민의힘'), Councilor(name='이영경', jdName='더불어민주당'), Councilor(name='이종현', jdName='국민의힘'), Councilor(name='허미향', jdName='더불어민주당')]
+| 33 | [Councilor(name='김정방', jdName='국민의힘'), Councilor(name='김정원', jdName='더불어민주당'), Councilor(name='김태식', jdName='국민의힘'), Councilor(name='김장수', jdName='국민의힘'), Councilor(name='손분연', jdName='더불어민주당'), Councilor(name='김기현', jdName='국민의힘'), Councilor(name='임성배', jdName='더불어민주당'), Councilor(name='김성택', jdName='국민의힘'), Councilor(name='하남욱', jdName='더불어민주당'), Councilor(name='김태희', jdName='더불어민주당'), Councilor(name='정기수', jdName='더불어민주당'), Councilor(name='하승범', jdName='국민의힘'), Councilor(name='문천순', jdName='더불어민주당'), Councilor(name='박순자', jdName='국민의힘')]
+| 34 | [Councilor(name='김경호', jdName='국민의힘'), Councilor(name='김미희', jdName='더불어민주당'), Councilor(name='김백철', jdName='더불어민주당'), Councilor(name='김상수', jdName='국민의힘'), Councilor(name='김성군', jdName='더불어민주당'), Councilor(name='나근호', jdName='국민의힘'), Councilor(name='남지원', jdName='국민의힘'), Councilor(name='문현신', jdName='더불어민주당'), Councilor(name='박기훈', jdName='국민의힘'), Councilor(name='박성식', jdName='더불어민주당'), Councilor(name='박지해', jdName='더불어민주당'), Councilor(name='서창우', jdName='국민의힘'), Councilor(name='송민우', jdName='국민의힘'), Councilor(name='심윤정', jdName='국민의힘'), Councilor(name='원영숙', jdName='더불어민주당'), Councilor(name='유점자', jdName='국민의힘'), Councilor(name='이상곤', jdName='더불어민주당'), Councilor(name='장성철', jdName='국민의힘'), Councilor(name='최명진', jdName='국민의힘'), Councilor(name='최은영', jdName='더불어민주당')]
+| 35 | [Councilor(name='박기조', jdName='국민의힘'), Councilor(name='허준섭', jdName='더불어민주당'), Councilor(name='박홍복', jdName='국민의힘'), Councilor(name='황운철', jdName='더불어민주당'), Councilor(name='박우식', jdName='국민의힘'), Councilor(name='맹승자', jdName='국민의힘'), Councilor(name='구본영', jdName='국민의힘'), Councilor(name='김원일', jdName='더불어민주당'), Councilor(name='구혜진', jdName='국민의힘')]
+| 36 | [Councilor(name='윤보수', jdName='국민의힘'), Councilor(name='한정옥', jdName='더불어민주당'), Councilor(name='양기주', jdName='국민의힘'), Councilor(name='전영애', jdName='국민의힘'), Councilor(name='정삼균', jdName='국민의힘'), Councilor(name='유영현', jdName='더불어민주당'), Councilor(name='채창섭', jdName='국민의힘'), Councilor(name='조재영', jdName='국민의힘'), Councilor(name='강현식', jdName='더불어민주당'), Councilor(name='유동철', jdName='더불어민주당'), Councilor(name='김민경', jdName='국민의힘'), Councilor(name='박정순', jdName='더불어민주당'), Councilor(name='송샘', jdName='국민의힘'), Councilor(name='신현수', jdName='국민의힘'), Councilor(name='장재희', jdName='국민의힘'), Councilor(name='이임선', jdName='더불어민주당')]
+| 37 | [Councilor(name='최봉환', jdName='국민의힘'), Councilor(name='하은미', jdName='국민의힘'), Councilor(name='조준영', jdName='더불어민주당'), Councilor(name='최종원', jdName='국민의힘'), Councilor(name='이재용', jdName='더불어민주당'), Councilor(name='강재호', jdName=''), Councilor(name='문나영', jdName='더불어민주당'), Councilor(name='정윤철', jdName=''), Councilor(name='원명숙', jdName='더불어민주당'), Councilor(name='김태연', jdName='국민의힘'), Councilor(name='양달막', jdName=''), Councilor(name='김진아', jdName='')]
+| 38 | [Councilor(name='박병률', jdName='민의힘'), Councilor(name='김주홍', jdName='민의힘'), Councilor(name='박상준', jdName='소속'), Councilor(name='박혜자', jdName='불어민주당'), Councilor(name='이자연', jdName='민의힘'), Councilor(name='김정용', jdName='불어민주당'), Councilor(name='구정란', jdName='민의힘')]
+| 39 | [Councilor(name='김기준', jdName='국민의힘'), Councilor(name='정홍숙', jdName='더불어민주당'), Councilor(name='차성민', jdName='국민의힘'), Councilor(name='이의찬', jdName='더불어민주당'), Councilor(name='최홍찬', jdName='국민의힘'), Councilor(name='권종헌', jdName='국민의힘'), Councilor(name='변준호', jdName='더불어민주당'), Councilor(name='권성하', jdName='더불어민주당'), Councilor(name='김현규', jdName='국민의힘'), Councilor(name='김미화', jdName='국민의힘'), Councilor(name='소수련', jdName='더불어민주당')]
+| 40 | [Councilor(name='김보언', jdName='국민의힘'), Councilor(name='권진성', jdName='더불어민주당'), Councilor(name='조병제', jdName='국민의힘'), Councilor(name='김태성', jdName='국민의힘'), Councilor(name='윤정환', jdName='더불어민주당'), Councilor(name='조선민', jdName='더불어민주당'), Councilor(name='이윤형', jdName='국민의힘'), Councilor(name='김진', jdName='더불어민주당'), Councilor(name='손사라', jdName='국민의힘')]
+| 41 | [Councilor(name='이정욱', jdName='더불어민주당'), Councilor(name='신혜정', jdName='국민의힘'), Councilor(name='김종선', jdName='국민의힘'), Councilor(name='김향남', jdName='더불어민주당'), Councilor(name='이종구', jdName='국민의힘'), Councilor(name='정춘희', jdName='더불어민주당'), Councilor(name='윤숙희', jdName='국민의힘'), Councilor(name='정두희', jdName='더불어민주당'), Councilor(name='김정옥', jdName='국민의힘'), Councilor(name='황수진', jdName='더불어민주당'), Councilor(name='김윤경', jdName='국민의힘')]
+| 42 | [Councilor(name='김오성', jdName='국민의힘'), Councilor(name='배태숙', jdName='국민의힘'), Councilor(name='김동현', jdName='국민의힘'), Councilor(name='김효린', jdName='국민의힘'), Councilor(name='권경숙', jdName='국민의힘'), Councilor(name='안재철', jdName='더불어민주당')]
+| 43 | [Councilor(name='김서희', jdName='국민의힘'), Councilor(name='주형숙', jdName='국민의힘'), Councilor(name='김영화', jdName='국민의힘'), Councilor(name='김재문', jdName='국민의힘'), Councilor(name='박종봉', jdName='국민의힘'), Councilor(name='이연미', jdName='국민의힘'), Councilor(name='이진욱', jdName='국민의힘'), Councilor(name='김상호', jdName='국민의힘'), Councilor(name='노남옥', jdName='더불어민주당'), Councilor(name='하중호', jdName='국민의힘'), Councilor(name='김동규', jdName='국민의힘'), Councilor(name='최건', jdName='국민의힘'), Councilor(name='안평훈', jdName='더불어민주당'), Councilor(name='정인숙', jdName='국민의힘'), Councilor(name='한동기', jdName='국민의힘'), Councilor(name='김은옥', jdName='국민의힘'), Councilor(name='배홍연', jdName='국민의힘')]
+| 44 | [Councilor(name='김종일', jdName='국민의힘'), Councilor(name='김진출', jdName='국민의힘'), Councilor(name='김한태', jdName='국민의힘'), Councilor(name='백일권', jdName='국민의힘'), Councilor(name='오연환', jdName='국민의힘'), Councilor(name='이규근', jdName='국민의힘'), Councilor(name='이금태', jdName='국민의힘'), Councilor(name='이동운', jdName='국민의힘'), Councilor(name='이주한', jdName='무소속'), Councilor(name='정영수', jdName='국민의힘')]
+| 45 | [Councilor(name='이충도', jdName='국민의힘'), Councilor(name='정재목', jdName='국민의힘'), Councilor(name='송민선', jdName='국민의힘'), Councilor(name='강병준', jdName='국민의힘'), Councilor(name='김재겸', jdName='국민의힘'), Councilor(name='이정현', jdName='더불어민주당'), Councilor(name='강민욱', jdName='더불어민주당'), Councilor(name='성윤희', jdName='국민의힘')]
+| 46 | [Councilor(name='김상선', jdName='국민의힘'), Councilor(name='김상혁', jdName='국민의힘'), Councilor(name='김순란', jdName='국민의힘'), Councilor(name='김시현', jdName='국민의힘'), Councilor(name='김종련', jdName='더불어민주당'), Councilor(name='김현주', jdName='국민의힘'), Councilor(name='서상훈', jdName='국민의힘'), Councilor(name='오영준', jdName='더불어민주당'), Councilor(name='이상봉', jdName='국민의힘'), Councilor(name='이성근', jdName='국민의힘'), Councilor(name='이소림', jdName='국민의힘'), Councilor(name='이현수', jdName='국민의힘'), Councilor(name='임수환', jdName='국민의힘'), Councilor(name='장영철', jdName='국민의힘'), Councilor(name='장윤영', jdName='더불어민주당'), Councilor(name='차대식', jdName='국민의힘'), Councilor(name='채장식', jdName='더불어민주당'), Councilor(name='최수열', jdName='국민의힘'), Councilor(name='최우영', jdName='더불어민주당'), Councilor(name='한상열', jdName='더불어민주당'), Councilor(name='허정수', jdName='국민의힘')]
+| 47 | [Councilor(name='전영태', jdName='국민의힘'), Councilor(name='김경민', jdName='국민의힘'), Councilor(name='김소은', jdName='국민의힘'), Councilor(name='김재현', jdName='국민의힘'), Councilor(name='김중군', jdName='국민의힘'), Councilor(name='김희섭', jdName='더불어민주당'), Councilor(name='남정호', jdName='국민의힘'), Councilor(name='박새롬', jdName='국민의힘'), Councilor(name='박영숙', jdName='국민의힘'), Councilor(name='박충배', jdName='국민의힘'), Councilor(name='배광호', jdName='국민의힘'), Councilor(name='백지은', jdName='국민의힘'), Councilor(name='정경은', jdName='더불어민주당'), Councilor(name='정대현', jdName='더불어민주당'), Councilor(name='조규화', jdName='국민의힘'), Councilor(name='차현민', jdName='더불어민주당'), Councilor(name='최명숙', jdName='더불어민주당'), Councilor(name='최진태', jdName='국민의힘'), Councilor(name='최현숙', jdName='국민의힘'), Councilor(name='홍경임', jdName='국민의힘'), Councilor(name='황치모', jdName='국민의힘'), Councilor(name='황혜진', jdName='더불어민주당')]
+| 48 | [Councilor(name='서민우', jdName='국민의힘'), Councilor(name='이영빈', jdName='더불어민주당'), Councilor(name='황국주', jdName='국민의힘'), Councilor(name='권숙자', jdName='국민의힘'), Councilor(name='김기열', jdName='국민의힘'), Councilor(name='박종길', jdName='더불어민주당'), Councilor(name='강한곤', jdName='국민의힘'), Councilor(name='박왕규', jdName='무소속'), Councilor(name='김해철', jdName='국민의힘'), Councilor(name='이선주', jdName='국민의힘'), Councilor(name='김장관', jdName='국민의힘'), Councilor(name='서보영', jdName='더불어민주당'), Councilor(name='장호섭', jdName='국민의힘'), Councilor(name='이진환', jdName='국민의힘'), Councilor(name='정순옥', jdName='국민의힘'), Councilor(name='손범구', jdName='국민의힘'), Councilor(name='정창근', jdName='국민의힘'), Councilor(name='최홍린', jdName='더불어민주당'), Councilor(name='고명욱', jdName='국민의힘'), Councilor(name='김정희', jdName='더불어민주당'), Councilor(name='박정환', jdName='국민의힘'), Councilor(name='남현주', jdName='국민의힘'), Councilor(name='도하석', jdName='국민의힘'), Councilor(name='임미연', jdName='더불어민주당')]
+| 49 | [Councilor(name='서도원', jdName='국민의힘'), Councilor(name='신동윤', jdName='국민의힘'), Councilor(name='김보경', jdName='더불어민주당'), Councilor(name='김은영', jdName='국민의힘'), Councilor(name='곽동환', jdName='국민의힘'), Councilor(name='전홍배', jdName='국민의힘'), Councilor(name='박영동', jdName='더불어민주당'), Councilor(name='박주용', jdName='국민의힘'), Councilor(name='신달호', jdName='국민의힘'), Councilor(name='최재규', jdName='국민의힘'), Councilor(name='양은숙', jdName='더불어민주당'), Councilor(name='이연숙', jdName='국민의힘')]
+| 50 | [Councilor(name='강후공', jdName='국민의힘'), Councilor(name='정동준', jdName='더불어민주당'), Councilor(name='이종호', jdName='국민의힘'), Councilor(name='한창한', jdName='국민의힘'), Councilor(name='윤효화', jdName='더불어민주당'), Councilor(name='김광호', jdName='더불어민주당'), Councilor(name='손은비', jdName='국민의힘')]
+| 51 | [Councilor(name='유옥분', jdName='국민의힘'), Councilor(name='원태근', jdName='국민의힘'), Councilor(name='장수진', jdName='더불어민주당'), Councilor(name='최훈', jdName='국민의힘'), Councilor(name='이영복', jdName='국민의힘'), Councilor(name='윤재실', jdName='더불어민주당'), Councilor(name='김종호', jdName='정의당'), Councilor(name='오수연', jdName='국민의힘')]
+| 52 | [Councilor(name='배상록', jdName='더불어민주당'), Councilor(name='이관호', jdName='국민의힘'), Councilor(name='정락재', jdName='더불어민주당'), Councilor(name='김영근', jdName='더불어민주당'), Councilor(name='장규철', jdName='국민의힘'), Councilor(name='이수현', jdName='더불어민주당'), Councilor(name='김재원', jdName='국민의힘'), Councilor(name='전경애', jdName='더불어민주당'), Councilor(name='양정희', jdName='국민의힘'), Councilor(name='이선용', jdName='더불어민주당'), Councilor(name='김태계', jdName='국민의힘'), Councilor(name='김진구', jdName='더불어민주당'), Councilor(name='박수연', jdName='국민의힘'), Councilor(name='김오현', jdName='더불어민주당'), Councilor(name='황숙경', jdName='국민의힘')]
+| 53 | [Councilor(name='편용대', jdName='국민의힘'), Councilor(name='기형서', jdName='더불어민주당'), Councilor(name='한성민', jdName='국민의힘'), Councilor(name='박정수', jdName='국민의힘'), Councilor(name='김국환', jdName='더불어민주당'), Councilor(name='박현주', jdName='국민의힘'), Councilor(name='최숙경', jdName='더불어민주당'), Councilor(name='장현희', jdName='더불어민주당'), Councilor(name='이형은', jdName='국민의힘'), Councilor(name='박민협', jdName='국민의힘'), Councilor(name='윤혜영', jdName='더불어민주당'), Councilor(name='김영임', jdName='국민의힘'), Councilor(name='정보현', jdName='더불어민주당')]
+| 54 | [Councilor(name='김은숙', jdName='국민의힘'), Councilor(name='김재남', jdName='더불어민주당'), Councilor(name='반미선', jdName='더불어민주당'), Councilor(name='박정하', jdName='더불어민주당'), Councilor(name='이연주', jdName='더불어민주당'), Councilor(name='이용우', jdName='국민의힘'), Councilor(name='이유경', jdName='국민의힘'), Councilor(name='이정순', jdName='더불어민주당'), Councilor(name='이철상', jdName='더불어민주당'), Councilor(name='오용환', jdName='더불어민주당'), Councilor(name='유광희', jdName='더불어민주당'), Councilor(name='육은아', jdName='국민의힘'), Councilor(name='장덕수', jdName='더불어민주당'), Councilor(name='전유형', jdName='국민의힘'), Councilor(name='전용호', jdName='국민의힘'), Councilor(name='정승환', jdName='국민의힘'), Councilor(name='정재호', jdName='국민의힘'), Councilor(name='황규진', jdName='더불어민주당')]
+| 55 | [Councilor(name='홍순옥', jdName='더불어민주당'), Councilor(name='이익성', jdName='국민의힘'), Councilor(name='구동오', jdName='국민의힘'), Councilor(name='안애경', jdName='더불어민주당'), Councilor(name='김동민', jdName='더불어민주당'), Councilor(name='여명자', jdName='국민의힘'), Councilor(name='박영훈', jdName='더불어민주당'), Councilor(name='유정옥', jdName='국민의힘'), Councilor(name='정유정', jdName='더불어민주당'), Councilor(name='손대중', jdName='더불어민주당'), Councilor(name='윤태웅', jdName='국민의힘'), Councilor(name='정한솔', jdName='더불어민주당'), Councilor(name='김숙희', jdName='국민의힘'), Councilor(name='윤구영', jdName='국민의힘'), Councilor(name='허정미', jdName='더불어민주당'), Councilor(name='황미라', jdName='더불어민주당'), Councilor(name='강연숙', jdName='국민의힘'), Councilor(name='정예지', jdName='더불어민주당')]
+| 56 | [Councilor(name='김경식', jdName='더불어민주당'), Councilor(name='문미혜', jdName='더불어민주당'), Councilor(name='신정숙', jdName='더불어민주당'), Councilor(name='신지수', jdName='더불어민주당'), Councilor(name='여재만', jdName='국민의힘'), Councilor(name='이상호', jdName='국민의힘'), Councilor(name='정춘지', jdName='국민의힘'), Councilor(name='조덕제', jdName='더불어민주당'), Councilor(name='조양희', jdName='더불어민주당'), Councilor(name='황순남', jdName='국민의힘')]
+57 번째 의회에는, 20 명의 의원이 있습니다.
+| 57 | [Councilor(name='고선희', jdName='더불어민주당'), Councilor(name='이한종', jdName='국민의힘'), Councilor(name='김남원', jdName='더불어민주당'), Councilor(name='김동혁', jdName='국민의힘'), Councilor(name='김미연', jdName='국민의힘'), Councilor(name='김원진', jdName='더불어민주당'), Councilor(name='김춘수', jdName='더불어민주당'), Councilor(name='김학엽', jdName='국민의힘'), Councilor(name='박용갑', jdName='국민의힘'), Councilor(name='백슬기', jdName='더불어민주당'), Councilor(name='서지영', jdName='더불어민주당'), Councilor(name='송이', jdName='더불어민주당'), Councilor(name='송승환', jdName='더불어민주당'), Councilor(name='심우창', jdName='더불어민주당'), Councilor(name='유은희', jdName='국민의힘'), Councilor(name='이영철', jdName='더불어민주당'), Councilor(name='장문정', jdName='국민의힘'), Councilor(name='정태완', jdName='더불어민주당'), Councilor(name='한승일', jdName='더불어민주당'), Councilor(name='홍순서', jdName='국민의힘')]
+58 번째 의회에는, 7 명의 의원이 있습니다.
+| 58 | [Councilor(name='박승한', jdName='국민의힘'), Councilor(name='최중찬', jdName='국민의힘'), Councilor(name='오현식', jdName='더불어민주당'), Councilor(name='한승희', jdName='국민의힘'), Councilor(name='배충원', jdName='국민의힘'), Councilor(name='박흥열', jdName='더불어민주당'), Councilor(name='고복숙', jdName='국민의힘')]
+59 번째 의회에는, 7 명의 의원이 있습니다.
+| 59 | [Councilor(name='이의명', jdName='더불어민주당'), Councilor(name='김영진', jdName='더불어민주당'), Councilor(name='이종선', jdName='국민의힘'), Councilor(name='김택선', jdName='더불어민주당'), Councilor(name='백동현', jdName='국민의힘'), Councilor(name='김규성', jdName='더불어민주당'), Councilor(name='김민애', jdName='국민의힘')]
+60 번째 의회에는, 8 명의 의원이 있습니다.
+| 60 | [Councilor(name='김현숙', jdName='더불어민주당'), Councilor(name='김현숙', jdName='더불어민주당'), Councilor(name='문선화', jdName='더불어민주당'), Councilor(name='박현정', jdName='진보당'), Councilor(name='김재식', jdName='더불어민주당'), Councilor(name='노진성', jdName='더불어민주당'), Councilor(name='박종균', jdName='무소속'), Councilor(name='이지애', jdName='더불어민주당')]
+61 번째 의회에는, 13 명의 의원이 있습니다.
+| 61 | [Councilor(name='고경애', jdName='더불어민주당'), Councilor(name='김균호', jdName='더불어민주당'), Councilor(name='김수영', jdName='더불어민주당'), Councilor(name='김옥수', jdName='무소속'), Councilor(name='김태진', jdName='진보당'), Councilor(name='김형미', jdName='더불어민주당'), Councilor(name='백종한', jdName='더불어민주당'), Councilor(name='안형주', jdName='더불어민주당'), Councilor(name='오광록', jdName='더불어민주당'), Councilor(name='오미섭', jdName='더불어민주당'), Councilor(name='윤정민', jdName='더불어민주당'), Councilor(name='임성화', jdName='더불어민주당'), Councilor(name='전승일', jdName='더불어민주당')]
+| 62 | [Councilor(name='김경묵', jdName='더불어민주당'), Councilor(name='김광수', jdName='더불어민주당'), Councilor(name='남호현', jdName='더불어민주당'), Councilor(name='신종혁', jdName='더불어민주당'), Councilor(name='정창수', jdName='더불어민주당'), Councilor(name='황경아', jdName='더불어민주당'), Councilor(name='박상길', jdName='더불어민주당'), Councilor(name='박용화', jdName='무소속'), Councilor(name='오영순', jdName='더불어민주당'), Councilor(name='노소영', jdName='더불어민주당'), Councilor(name='은봉희', jdName='더불어민주당')]
+| 63 | [Councilor(name='강성훈', jdName='더불어민주당'), Councilor(name='고영임', jdName='더불어민주당'), Councilor(name='기대서', jdName='무소속'), Councilor(name='김건안', jdName='더불어민주당'), Councilor(name='김귀성', jdName='더불어민주당'), Councilor(name='김영순', jdName='더불어민주당'), Councilor(name='김형수', jdName='더불어민주당'), Councilor(name='손혜진', jdName='진보당'), Councilor(name='신정훈', jdName='더불어민주당'), Councilor(name='이숙희', jdName='더불어민주당'), Councilor(name='임종국', jdName='더불어민주당'), Councilor(name='전미용', jdName='더불어민주당'), Councilor(name='정달성', jdName='더불어민주당'), Councilor(name='정상용', jdName='더불어민주당'), Councilor(name='정재성', jdName='더불어민주당'), Councilor(name='주순일', jdName='더불어민주당'), Councilor(name='최기영', jdName='무소속'), Councilor(name='최무송', jdName='더불어민주당'), Councilor(name='한양임', jdName='더불어민주당'), Councilor(name='황예원', jdName='더불어민주당')]
+| 64 | [Councilor(name='강한솔', jdName='더불어민주당'), Councilor(name='박해원', jdName='더불어민주당'), Councilor(name='박현석', jdName='더불어민주당'), Councilor(name='김명수', jdName='더불어민주당'), Councilor(name='공병철', jdName='더불어민주당'), Councilor(name='김태완', jdName='더불어민주당'), Councilor(name='김은정', jdName='진보당'), Councilor(name='정재봉', jdName='더불어민주당'), Councilor(name='윤혜영', jdName='더불어민주당'), Councilor(name='김영선', jdName='더불어민주당'), Councilor(name='이우형', jdName='더불어민주당'), Councilor(name='조영임', jdName='더불어민주당'), Councilor(name='양만주', jdName='더불어민주당'), Councilor(name='윤영일', jdName='더불어민주당'), Councilor(name='국강현', jdName='진보당'), Councilor(name='한윤희', jdName='정의당'), Councilor(name='김명숙', jdName='진보당'), Councilor(name='박미옥', jdName='더불어민주당')]
+65 번째 의회에는, 10 명의 의원이 있습니다.
+| 65 | [Councilor(name='강정규', jdName='국민의힘'), Councilor(name='성용순', jdName='더불어민주당'), Councilor(name='오관영', jdName='국민의힘'), Councilor(name='이재규', jdName='더불어민주당'), Councilor(name='김세은', jdName='더불어민주당'), Councilor(name='박철용', jdName='국민의힘'), Councilor(name='정용', jdName='더불어민주당'), Councilor(name='박영순', jdName='국민의힘'), Councilor(name='이지현', jdName='더불어민주당'), Councilor(name='김영희', jdName='국민의힘')]
+66 번째 의회에는, 11 명의 의원이 있습니다.
+| 66 | [Councilor(name='김석환', jdName='국민의힘'), Councilor(name='김선옥', jdName='더불어민주당'), Councilor(name='김옥향', jdName='국민의힘'), Councilor(name='류수열', jdName='더불어민주당'), Councilor(name='안형진', jdName='국민의힘'), Councilor(name='오은규', jdName='더불어민주당'), Councilor(name='오한숙', jdName='국민의힘'), Councilor(name='유은희', jdName='더불어민주당'), Councilor(name='육상래', jdName='더불어민주당'), Councilor(name='윤양수', jdName='무소속'), Councilor(name='이정수', jdName='국민의힘')]
+67 번째 의회에는, 20 명의 의원이 있습니다.
+| 67 | [Councilor(name='강정수', jdName='더불어민주당'), Councilor(name='박용준', jdName='더불어민주당'), Councilor(name='서다운', jdName='더불어민주당'), Councilor(name='서지원', jdName='국민의힘'), Councilor(name='설재영', jdName='국민의힘'), Councilor(name='손도선', jdName='더불어민주당'), Councilor(name='신진미', jdName='더불어민주당'), Councilor(name='신현대', jdName='국민의힘'), Councilor(name='신혜영', jdName='더불어민주당'), Councilor(name='오세길', jdName='국민의힘'), Councilor(name='전명자', jdName='더불어민주당'), Councilor(name='정인화', jdName='국민의힘'), Councilor(name='정현서', jdName='국민의힘'), Councilor(name='정홍근', jdName='국민의힘'), Councilor(name='조규식', jdName='더불어민주당'), Councilor(name='최규', jdName='무소속'), Councilor(name='최미자', jdName='더불어민주당'), Councilor(name='최병순', jdName='국민의힘'), Councilor(name='최지연', jdName='더불어민주당'), Councilor(name='홍성영', jdName='국민의힘')]
+68 번째 의회에는, 14 명의 의원이 있습니다.
+| 68 | [Councilor(name='김동수', jdName='국민의힘'), Councilor(name='박석연', jdName='국민의힘'), Councilor(name='여성용', jdName='국민의힘'), Councilor(name='송봉식', jdName='국민의힘'), Councilor(name='윤정희', jdName='국민의힘'), Councilor(name='인미동', jdName='국민의힘'), Councilor(name='송재만', jdName='국민의힘'), Councilor(name='양명환', jdName='국민의힘'), Councilor(name='하경옥', jdName='국민의힘'), Councilor(name='이명숙', jdName='국민의힘'), Councilor(name='이희환', jdName='국민의힘'), Councilor(name='한형신', jdName='국민의힘'), Councilor(name='김미희', jdName='국민의힘'), Councilor(name='이희래', jdName='국민의힘')]
+69 번째 의회에는, 8 명의 의원이 있습니다.
+| 69 | [Councilor(name='김기흥', jdName='더불어민주당'), Councilor(name='이준규', jdName='국민의힘'), Councilor(name='유승연', jdName='더불어민주당'), Councilor(name='김홍태', jdName='국민의힘'), Councilor(name='박효서', jdName='더불어민주당'), Councilor(name='전석광', jdName='더불어민주당'), Councilor(name='조대웅', jdName='국민의힘'), Councilor(name='양영자', jdName='국민의힘')]
+70 번째 의회에는, 10 명의 의원이 있습니다.
+| 70 | [Councilor(name='강혜순', jdName='국민의힘'), Councilor(name='안영호', jdName='더불어민주당'), Councilor(name='박경흠', jdName='국민의힘'), Councilor(name='문기호', jdName='국민의힘'), Councilor(name='문희성', jdName='더불어민주당'), Councilor(name='김도운', jdName='국민의힘'), Councilor(name='이명녀', jdName='더불어민주당'), Councilor(name='김태욱', jdName='국민의힘'), Councilor(name='정재환', jdName='더불어민주당'), Councilor(name='홍영진', jdName='국민의힘')]
+71 번째 의회에는, 14 명의 의원이 있습니다.
+| 71 | [Councilor(name='김대영', jdName='국민의힘'), Councilor(name='김예나', jdName='더불어민주당'), Councilor(name='김장호', jdName='국민의힘'), Councilor(name='박영수', jdName='더불어민주당'), Councilor(name='박인서', jdName='더불어민주당'), Councilor(name='이상기', jdName='국민의힘'), Councilor(name='이소영', jdName='국민의힘'), Councilor(name='이양임', jdName='국민의힘'), Councilor(name='이정훈', jdName='국민의힘'), Councilor(name='이지현', jdName='국민의힘'), Councilor(name='이혜인', jdName='더불어민주당'), Councilor(name='임금택', jdName='더불어민주당'), Councilor(name='최덕종', jdName='더불어민주당'), Councilor(name='최신성', jdName='국민의힘')]
+72 번째 의회에는, 7 명의 의원이 있습니다.
+| 72 | [Councilor(name='박경옥', jdName='국민의힘'), Councilor(name='이수영', jdName='더불어민주당'), Councilor(name='임채윤', jdName='국민의힘'), Councilor(name='박문옥', jdName='진보당'), Councilor(name='강동효', jdName='국민의힘'), Councilor(name='윤혜빈', jdName='더불어민주당'), Councilor(name='박은심', jdName='국민의힘')]
+73 번째 의회에는, 9 명의 의원이 있습니다.
+| 73 | [Councilor(name='김정희', jdName='무소속'), Councilor(name='이선경', jdName='더불어민주당'), Councilor(name='박정환', jdName='국민의힘'), Councilor(name='박재완', jdName='더불어민주당'), Councilor(name='조문경', jdName='국민의힘'), Councilor(name='김상태', jdName='더불어민주당'), Councilor(name='강진희', jdName='진보당'), Councilor(name='손옥선', jdName='국민의힘'), Councilor(name='임채오', jdName='더불어민주당')]
+74 번째 의회에는, 4 명의 의원이 있습니다.
+| 74 | [Councilor(name='김상용', jdName='국민의힘'), Councilor(name='이상걸', jdName='국민의힘'), Councilor(name='최길영', jdName='국민의힘'), Councilor(name='한성환', jdName='더불어민주당')]
+75 번째 의회에는, 37 명의 의원이 있습니다.
+| 75 | [Councilor(name='김기정', jdName='국민의힘'), Councilor(name='이재식', jdName='더불어민주당'), Councilor(name='강영우', jdName='더불어민주당'), Councilor(name='국미순', jdName='국민의힘'), Councilor(name='권기호', jdName='국민의힘'), Councilor(name='김경례', jdName='더불어민주당'), Councilor(name='김동은', jdName='더불어민주당'), Councilor(name='김미경', jdName='더불어민주당'), Councilor(name='김소진', jdName='국민의힘'), Councilor(name='김은경', jdName='국민의힘'), Councilor(name='김정렬', jdName='더불어민주당'), Councilor(name='박영태', jdName='더불어민주당'), Councilor(name='박현수', jdName='국민의힘'), Councilor(name='배지환', jdName='국민의힘'), Councilor(name='사정희', jdName='더불어민주당'), Councilor(name='오세철', jdName='더불어민주당'), Councilor(name='오혜숙', jdName='국민의힘'), Councilor(name='유재광', jdName='국민의힘'), Councilor(name='유준숙', jdName='국민의힘'), Councilor(name='윤경선', jdName='진보당'), Councilor(name='윤명옥', jdName='더불어민주당'), Councilor(name='이대선', jdName='더불어민주당'), Councilor(name='이재선', jdName='국민의힘'), Councilor(name='이재형', jdName='국민의힘'), Councilor(name='이찬용', jdName='국민의힘'), Councilor(name='이희승', jdName='더불어민주당'), Councilor(name='장미영', jdName='더불어민주당'), Councilor(name='장정희', jdName='더불어민주당'), Councilor(name='정영모', jdName='국민의힘'), Councilor(name='정종윤', jdName='국민의힘'), Councilor(name='조문경', jdName='국민의힘'), Councilor(name='조미옥', jdName='더불어민주당'), Councilor(name='채명기', jdName='더불어민주당'), Councilor(name='최원용', jdName='국민의힘'), Councilor(name='최정헌', jdName='국민의힘'), Councilor(name='현경환', jdName='국민의힘'), Councilor(name='홍종철', jdName='국민의힘')]
+76 번째 의회에는, 34 명의 의원이 있습니다.
+박광순 is name
+
+박은미 is name
+
+강상태 is name
+
+고병용 is name
+
+구재평 is name
+
+김보미 is name
+
+김보석 is name
+
+김선임 is name
+
+김윤환 is name
+
+김장권 is name
+
+김종환 is name
+
+박경희 is name
+
+박기범 is name
+
+박명순 is name
+
+박종각 is name
+
+박주윤 is name
+
+서은경 is name
+
+서희경 is name
+
+성해련 is name
+
+안광림 is name
+
+안극수 is name
+
+윤혜선 is name
+
+이군수 is name
+
+이덕수 is name
+
+이영경 is name
+
+이준배 is name
+
+정연화 is name
+
+정용한 is name
+
+조우현 is name
+
+조정식 is name
+
+최종성 is name
+
+최현백 is name
+
+추선미 is name
+
+황금석 is name
+
+| 76 | [Councilor(name='박광순', jdName='국민의힘'), Councilor(name='박은미', jdName='국민의힘'), Councilor(name='강상태', jdName='더불어민주당'), Councilor(name='고병용', jdName='더불어민주당'), Councilor(name='구재평', jdName='국민의힘'), Councilor(name='김보미', jdName='국민의힘'), Councilor(name='김보석', jdName='국민의힘'), Councilor(name='김선임', jdName='더불어민주당'), Councilor(name='김윤환', jdName='더불어민주당'), Councilor(name='김장권', jdName='국민의힘'), Councilor(name='김종환', jdName='국민의힘'), Councilor(name='박경희', jdName='더불어민주당'), Councilor(name='박기범', jdName='더불어민주당'), Councilor(name='박명순', jdName='국민의힘'), Councilor(name='박종각', jdName='국민의힘'), Councilor(name='박주윤', jdName='국민의힘'), Councilor(name='서은경', jdName='더불어민주당'), Councilor(name='서희경', jdName='국민의힘'), Councilor(name='성해련', jdName='더불어민주당'), Councilor(name='안광림', jdName='국민의힘'), Councilor(name='안극수', jdName='국민의힘'), Councilor(name='윤혜선', jdName='더불어민주당'), Councilor(name='이군수', jdName='더불어민주당'), Councilor(name='이덕수', jdName='국민의힘'), Councilor(name='이영경', jdName='국민의힘'), Councilor(name='이준배', jdName='더불어민주당'), Councilor(name='정연화', jdName='더불어민주당'), Councilor(name='정용한', jdName='국민의힘'), Councilor(name='조우현', jdName='더불어민주당'), Councilor(name='조정식', jdName='더불어민주당'), Councilor(name='최종성', jdName='더불어민주당'), Councilor(name='최현백', jdName='무소속'), Councilor(name='추선미', jdName='국민의힘'), Councilor(name='황금석', jdName='국민의힘')]
+77 번째 의회에는, 13 명의 의원이 있습니다.
+| 77 | [Councilor(name='최정희', jdName='무소속'), Councilor(name='김현주', jdName='국민의힘'), Councilor(name='김태은', jdName='국민의힘'), Councilor(name='김연균', jdName='더불어민주당'), Councilor(name='이계옥', jdName='더불어민주당'), Councilor(name='오범구', jdName='국민의힘'), Councilor(name='강선영', jdName='더불어민주당'), Councilor(name='정진호', jdName='더불어민주당'), Councilor(name='김지호', jdName='더불어민주당'), Councilor(name='권안나', jdName='국민의힘'), Councilor(name='조세일', jdName='더불어민주당'), Councilor(name='정미영', jdName='더불어민주당'), Councilor(name='김현채', jdName='국민의힘')]
+78 번째 의회에는, 20 명의 의원이 있습니다.
+곽동윤 is name
+
+최병일 is name
+
+채진기 is name
+
+박준모 is name
+
+윤경숙 is name
+
+윤해동 is name
+
+조지영 is name
+
+장명희 is name
+
+김도현 is name
+
+이동훈 is name
+
+장경술 is name
+
+| 78 | [Councilor(name='곽동윤', jdName='더불어민주당'), Councilor(name='최병일', jdName='더불어민주당'), Councilor(name='채진기', jdName='더불어민주당'), Councilor(name='박준모', jdName='더불어민주당'), Councilor(name='윤경숙', jdName='더불어민주당'), Councilor(name='윤해동', jdName='더불어민주당'), Councilor(name='조지영', jdName='더불어민주당'), Councilor(name='장명희', jdName='더불어민주당'), Councilor(name='김도현', jdName='더불어민주당'), Councilor(name='이동훈', jdName='더불어민주당'), Councilor(name='장경술', jdName='더불어민주당')]
+79 번째 의회에는, 26 명의 의원이 있습니다.
+| 79 | [Councilor(name='곽내경', jdName='국민의힘'), Councilor(name='구점자', jdName='국민의힘'), Councilor(name='김건', jdName='국민의힘'), Councilor(name='김미자', jdName='국민의힘'), Councilor(name='김병전', jdName='더불어민주당'), Councilor(name='김주삼', jdName='더불어민주당'), Councilor(name='김선화', jdName='더불어민주당'), Councilor(name='박순희', jdName='더불어민주당'), Councilor(name='박찬희', jdName='더불어민주당'), Councilor(name='박혜숙', jdName='국민의힘'), Councilor(name='손준기', jdName='더불어민주당'), Councilor(name='송혜숙', jdName='더불어민주당'), Councilor(name='안효식', jdName='국민의힘'), Councilor(name='양정숙', jdName='더불어민주당'), Councilor(name='윤단비', jdName='더불어민주당'), Councilor(name='윤병권', jdName='국민의힘'), Councilor(name='이학환', jdName='국민의힘'), Councilor(name='임은분', jdName='더불어민주당'), Councilor(name='장성철', jdName='국민의힘'), Councilor(name='장해영', jdName='더불어민주당'), Councilor(name='정창곤', jdName='국민의힘'), Councilor(name='최성운', jdName='더불어민주당'), Councilor(name='최옥순', jdName='국민의힘'), Councilor(name='최은경', jdName='더불어민주당'), Councilor(name='최의열', jdName='더불어민주당'), Councilor(name='최초은', jdName='국민의힘')]
+80 번째 의회에는, 10 명의 의원이 있습니다.
+| 80 | [Councilor(name='김종오', jdName='국민의힘'), Councilor(name='안성환', jdName='더불어민주당'), Councilor(name='이재한', jdName='국민의힘'), Councilor(name='이형덕', jdName='더불어민주당'), Councilor(name='설진서', jdName='국민의힘'), Councilor(name='이지석', jdName='더불어민주당'), Councilor(name='구본신', jdName='국민의힘'), Councilor(name='현충열', jdName='더불어민주당'), Councilor(name='김정미', jdName='더불어민주당'), Councilor(name='정지혜', jdName='국민의힘')]
+81 번째 의회에는, 18 명의 의원이 있습니다.
+| 81 | [Councilor(name='유승영', jdName='더불어민주당'), Councilor(name='이관우', jdName='국민의힘'), Councilor(name='최재영', jdName='더불어민주당'), Councilor(name='정일구', jdName='국민의힘'), Councilor(name='김승겸', jdName='더불어민주당'), Councilor(name='이기형', jdName='더불어민주당'), Councilor(name='김영주', jdName='국민의힘'), Councilor(name='김혜영', jdName='국민의힘'), Councilor(name='강정구', jdName='국민의힘'), Councilor(name='이윤하', jdName='더불어민주당'), Councilor(name='최선자', jdName='더불어민주당'), Councilor(name='소남영', jdName='국민의힘'), Councilor(name='김순이', jdName='국민의힘'), Councilor(name='김명숙', jdName='더불어민주당'), Councilor(name='이종원', jdName='더불어민주당'), Councilor(name='최준구', jdName='국민의힘'), Councilor(name='류정화', jdName='더불어민주당'), Councilor(name='김산수', jdName='더불어민주당')]
+82 번째 의회에는, 8 명의 의원이 있습니다.
+| 82 | [Councilor(name='윤창철', jdName='국민의힘'), Councilor(name='한상민', jdName='더불어민주당'), Councilor(name='이지연', jdName='더불어민주당'), Councilor(name='정현호', jdName='국민의힘'), Councilor(name='최수연', jdName='더불어민주당'), Councilor(name='김현수', jdName='국민의힘'), Councilor(name='정희태', jdName='더불어민주당'), Councilor(name='강혜숙', jdName='국민의힘')]
+83 번째 의회에는, 7 명의 의원이 있습니다.
+| 83 | [Councilor(name='김승호', jdName='국민의힘'), Councilor(name='황주룡', jdName='국민의힘'), Councilor(name='김재수', jdName='더불어민주당'), Councilor(name='권영기', jdName='국민의힘'), Councilor(name='박인범', jdName='더불어민주당'), Councilor(name='임현숙', jdName='더불어민주당'), Councilor(name='이은경', jdName='국민의힘')]
+84 번째 의회에는, 20 명의 의원이 있습니다.
+| 84 | [Councilor(name='한명훈', jdName='더불어민주당'), Councilor(name='최찬규', jdName='더불어민주당'), Councilor(name='한갑수', jdName='국민의힘'), Councilor(name='김진숙', jdName='더불어민주당'), Councilor(name='이지화', jdName='국민의힘'), Councilor(name='박태순', jdName='더불어민주당'), Councilor(name='현옥순', jdName='국민의힘'), Councilor(name='유재수', jdName='더불어민주당'), Councilor(name='설호영', jdName='국민의힘'), Councilor(name='박은경', jdName='더불어민주당'), Councilor(name='김재국', jdName='국민의힘'), Councilor(name='송바우나', jdName='더불어민주당'), Councilor(name='박은정', jdName='더불어민주당'), Councilor(name='이진분', jdName='국민의힘'), Councilor(name='최진호', jdName='더불어민주당'), Councilor(name='이혜경', jdName='국민의힘'), Councilor(name='선현우', jdName='더불어민주당'), Councilor(name='이대구', jdName='국민의힘'), Councilor(name='황은화', jdName='더불어민주당'), Councilor(name='김유숙', jdName='국민의힘')]
+85 번째 의회에는, 34 명의 의원이 있습니다.
+| 85 | [Councilor(name='고덕희', jdName='국민의힘'), Councilor(name='고부미', jdName='국민의힘'), Councilor(name='공소자', jdName='더불어민주당'), Councilor(name='권선영', jdName='더불어민주당'), Councilor(name='권용재', jdName='더불어민주당'), Councilor(name='김미경', jdName='국민의힘'), Councilor(name='김미수', jdName='더불어민주당'), Councilor(name='김민숙', jdName='국민의힘'), Councilor(name='김수진', jdName='국민의힘'), Councilor(name='김영식', jdName='국민의힘'), Councilor(name='김운남', jdName='더불어민주당'), Councilor(name='김학영', jdName='더불어민주당'), Councilor(name='김해련', jdName='더불어민주당'), Councilor(name='김희섭', jdName='국민의힘'), Councilor(name='문재호', jdName='더불어민주당'), Councilor(name='박현우', jdName='국민의힘'), Councilor(name='손동숙', jdName='국민의힘'), Councilor(name='송규근', jdName='더불어민주당'), Councilor(name='신인선', jdName='더불어민주당'), Councilor(name='신현철', jdName='국민의힘'), Councilor(name='안중돈', jdName='국민의힘'), Councilor(name='엄성은', jdName='국민의힘'), Councilor(name='원종범', jdName='국민의힘'), Councilor(name='이영훈', jdName='국민의힘'), Councilor(name='이종덕', jdName='더불어민주당'), Councilor(name='이철조', jdName='국민의힘'), Councilor(name='이해림', jdName='더불어민주당'), Councilor(name='임홍열', jdName='더불어민주당'), Councilor(name='장예선', jdName='국민의힘'), Councilor(name='정민경', jdName='더불어민주당'), Councilor(name='조현숙', jdName='더불어민주당'), Councilor(name='천승아', jdName='국민의힘'), Councilor(name='최규진', jdName='더불어민주당'), Councilor(name='최성원', jdName='더불어민주당')]
+86 번째 의회에는, 6 명의 의원이 있습니다.
+| 86 | [Councilor(name='김진웅', jdName='국민의힘'), Councilor(name='우윤화', jdName='국민의힘'), Councilor(name='이주연', jdName='더불어민주당'), Councilor(name='박주리', jdName='더불어민주당'), Councilor(name='황선희', jdName='국민의힘'), Councilor(name='하영주', jdName='국민의힘')]
+87 번째 의회에는, 7 명의 의원이 있습니다.
+| 87 | [Councilor(name='김학기', jdName='국민의힘'), Councilor(name='박혜숙', jdName='국민의힘'), Councilor(name='서창수', jdName='더불어민주당'), Councilor(name='노선희', jdName='국민의힘'), Councilor(name='김태흥', jdName='더불어민주당'), Councilor(name='한채훈', jdName='더불어민주당'), Councilor(name='박현호', jdName='무소속')]
+88 번째 의회에는, 8 명의 의원이 있습니다.
+| 88 | [Councilor(name='권봉수', jdName='더불어민주당'), Councilor(name='양경애', jdName='더불어민주당'), Councilor(name='신동화', jdName='더불어민주당'), Councilor(name='김성태', jdName='더불어민주당'), Councilor(name='김용현', jdName='국민의힘'), Councilor(name='정은철', jdName='더불어민주당'), Councilor(name='김한슬', jdName='국민의힘'), Councilor(name='이경희', jdName='국민의힘')]
+89 번째 의회에는, 21 명의 의원이 있습니다.
+| 89 | [Councilor(name='김현택', jdName='국민의힘'), Councilor(name='이상기', jdName='국민의힘'), Councilor(name='김지훈', jdName='더불어민주당'), Councilor(name='김지훈', jdName='국민의힘'), Councilor(name='김영실', jdName='국민의힘'), Councilor(name='조성대', jdName='국민의힘'), Councilor(name='이정애', jdName='더불어민주당'), Councilor(name='박은경', jdName='더불어민주당'), Councilor(name='박경원', jdName='국민의힘'), Councilor(name='박윤옥', jdName='더불어민주당'), Councilor(name='이경숙', jdName='국민의힘'), Councilor(name='한근수', jdName='국민의힘'), Councilor(name='김동훈', jdName='국민의힘'), Councilor(name='정현미', jdName='더불어민주당'), Councilor(name='한송연', jdName='더불어민주당'), Councilor(name='이수련', jdName='더불어민주당'), Councilor(name='김상수', jdName='더불어민주당'), Councilor(name='이진환', jdName='더불어민주당'), Councilor(name='원주영', jdName='국민의힘'), Councilor(name='손정자', jdName='더불어민주당'), Councilor(name='전혜연', jdName='국민의힘')]
+90 번째 의회에는, 7 명의 의원이 있습니다.
+| 90 | [Councilor(name='이상복', jdName='국민의힘'), Councilor(name='조미선', jdName='국민의힘'), Councilor(name='성길용', jdName='더불어민주당'), Councilor(name='정미섭', jdName='더불어민주당'), Councilor(name='전도현', jdName='더불어민주당'), Councilor(name='송진영', jdName='더불어민주당'), Councilor(name='전예슬', jdName='더불어민주당')]
+91 번째 의회에는, 25 명의 의원이 있습니다.
+| 91 | [Councilor(name='공영애', jdName='국민의힘'), Councilor(name='김경희', jdName='더불어민주당'), Councilor(name='김미영', jdName='국민의힘'), Councilor(name='김상균', jdName='더불어민주당'), Councilor(name='김상수', jdName='국민의힘'), Councilor(name='김영수', jdName='더불어민주당'), Councilor(name='김종복', jdName='국민의힘'), Councilor(name='명미정', jdName='국민의힘'), Councilor(name='박진섭', jdName='국민의힘'), Councilor(name='배정수', jdName='더불어민주당'), Councilor(name='배현경', jdName='더불어민주당'), Councilor(name='송선영', jdName='국민의힘'), Councilor(name='오문섭', jdName='국민의힘'), Councilor(name='위영란', jdName='더불어민주당'), Councilor(name='유재호', jdName='더불어민주당'), Councilor(name='이계철', jdName='더불어민주당'), Councilor(name='이용운', jdName='더불어민주당'), Councilor(name='이은진', jdName='더불어민주당'), Councilor(name='이해남', jdName='더불어민주당'), Councilor(name='임채덕', jdName='국민의힘'), Councilor(name='장철규', jdName='더불어민주당'), Councilor(name='전성균', jdName='더불어민주당'), Councilor(name='정흥범', jdName='국민의힘'), Councilor(name='조오순', jdName='국민의힘'), Councilor(name='차순임', jdName='국민의힘')]
+92 번째 의회에는, 16 명의 의원이 있습니다.
+| 92 | [Councilor(name='송미희', jdName='더불어민주당'), Councilor(name='성훈창', jdName='국민의힘'), Councilor(name='박소영', jdName='더불어민주당'), Councilor(name='박춘호', jdName='더불어민주당'), Councilor(name='김선옥', jdName='더불어민주당'), Councilor(name='안돈의', jdName='국민의힘'), Councilor(name='오인열', jdName='더불어민주당'), Councilor(name='김찬심', jdName='국민의힘'), Councilor(name='서명범', jdName='더불어민주당'), Councilor(name='이봉관', jdName='국민의힘'), Councilor(name='윤석경', jdName='국민의힘'), Councilor(name='이건섭', jdName='국민의힘'), Councilor(name='김진영', jdName='더불어민주당'), Councilor(name='이상훈', jdName='더불어민주당'), Councilor(name='한지숙', jdName='국민의힘'), Councilor(name='김수연', jdName='더불어민주당')]
+93 번째 의회에는, 9 명의 의원이 있습니다.
+| 93 | [Councilor(name='이길호', jdName='더불어민주당'), Councilor(name='신경원', jdName='국민의힘'), Councilor(name='김귀근', jdName='더불어민주당'), Councilor(name='신금자', jdName='더불어민주당'), Councilor(name='이우천', jdName='더불어민주당'), Councilor(name='이훈미', jdName='국민의힘'), Councilor(name='이동한', jdName='더불어민주당'), Councilor(name='박상현', jdName='국민의힘'), Councilor(name='이혜승', jdName='더불어민주당')]
+94 번째 의회에는, 10 명의 의원이 있습니다.
+| 94 | [Councilor(name='강성삼', jdName='더불어민주당'), Councilor(name='박진희', jdName='국민의힘'), Councilor(name='박선미', jdName='국민의힘'), Councilor(name='정병용', jdName='더불어민주당'), Councilor(name='금광연', jdName='국민의힘'), Councilor(name='정혜영', jdName='더불어민주당'), Councilor(name='임희도', jdName='국민의힘'), Councilor(name='최훈종', jdName='더불어민주당'), Councilor(name='오승철', jdName='더불어민주당'), Councilor(name='오지연', jdName='국민의힘')]
+95 번째 의회에는, 15 명의 의원이 있습니다.
+| 95 | [Councilor(name='이성철', jdName='무소속'), Councilor(name='윤희정', jdName='국민의힘'), Councilor(name='오창식', jdName='국민의힘'), Councilor(name='목진혁', jdName='더불어민주당'), Councilor(name='박은주', jdName='더불어민주당'), Councilor(name='박대성', jdName='더불어민주당'), Councilor(name='이정은', jdName='더불어민주당'), Councilor(name='최창호', jdName='국민의힘'), Councilor(name='손성익', jdName='더불어민주당'), Councilor(name='박신성', jdName='국민의힘'), Councilor(name='최유각', jdName='더불어민주당'), Councilor(name='손형배', jdName='국민의힘'), Councilor(name='이익선', jdName='국민의힘'), Councilor(name='이혜정', jdName='더불어민주당'), Councilor(name='이진아', jdName='국민의힘')]
+96 번째 의회에는, 7 명의 의원이 있습니다.
+| 96 | [Councilor(name='정병관', jdName='국민의힘'), Councilor(name='유필선', jdName='더불어민주당'), Councilor(name='박시선', jdName='더불어민주당'), Councilor(name='경규명', jdName='국민의힘'), Councilor(name='박두형', jdName='국민의힘'), Councilor(name='진선화', jdName='더불어민주당'), Councilor(name='이상숙', jdName='국민의힘')]
+[API/spreadsheet] Error : No function found
+| 97 | [Councilor(name='정병관', jdName='국민의힘'), Councilor(name='유필선', jdName='더불어민주당'), Councilor(name='박시선', jdName='더불어민주당'), Councilor(name='경규명', jdName='국민의힘'), Councilor(name='박두형', jdName='국민의힘'), Councilor(name='진선화', jdName='더불어민주당'), Councilor(name='이상숙', jdName='국민의힘')]
+98 번째 의회에는, 32 명의 의원이 있습니다.
+| 98 | [Councilor(name='윤원균', jdName='더불어민주당'), Councilor(name='김운봉', jdName='국민의힘'), Councilor(name='남홍숙', jdName='더불어민주당'), Councilor(name='장정순', jdName='더불어민주당'), Councilor(name='황재욱', jdName='더불어민주당'), Councilor(name='신민석', jdName='국민의힘'), Councilor(name='이진규', jdName='국민의힘'), Councilor(name='김상수', jdName='국민의힘'), Councilor(name='김진석', jdName='더불어민주당'), Councilor(name='이창식', jdName='국민의힘'), Councilor(name='황미상', jdName='더불어민주당'), Councilor(name='박인철', jdName='더불어민주당'), Councilor(name='김영식', jdName='국민의힘'), Councilor(name='유진선', jdName='더불어민주당'), Councilor(name='안치용', jdName='국민의힘'), Councilor(name='임현수', jdName='더불어민주당'), Councilor(name='김길수', jdName='국민의힘'), Councilor(name='신나연', jdName='더불어민주당'), Councilor(name='박희정', jdName='더불어민주당'), Councilor(name='김희영', jdName='국민의힘'), Councilor(name='강영웅', jdName='국민의힘'), Councilor(name='이교우', jdName='더불어민주당'), Councilor(name='신현녀', jdName='더불어민주당'), Councilor(name='김태우', jdName='국민의힘'), Councilor(name='김병민', jdName='더불어민주당'), Councilor(name='안지현', jdName='국민의힘'), Councilor(name='박은선', jdName='국민의힘'), Councilor(name='이상욱', jdName='더불어민주당'), Councilor(name='이윤미', jdName='더불어민주당'), Councilor(name='박병민', jdName='더불어민주당'), Councilor(name='기주옥', jdName='국민의힘'), Councilor(name='김윤선', jdName='국민의힘')]
+99 번째 의회에는, 8 명의 의원이 있습니다.
+| 99 | [Councilor(name='안정열', jdName='국민의힘'), Councilor(name='정토근', jdName='국민의힘'), Councilor(name='이중섭', jdName='국민의힘'), Councilor(name='황윤희', jdName='더불어민주당'), Councilor(name='정천식', jdName='국민의힘'), Councilor(name='최승혁', jdName='더불어민주당'), Councilor(name='최호섭', jdName='국민의힘'), Councilor(name='이관실', jdName='더불어민주당')]
+100 번째 의회에는, 13 명의 의원이 있습니다.
+| 100 | [Councilor(name='김인수', jdName='국민의힘'), Councilor(name='오강현', jdName='더불어민주당'), Councilor(name='배강민', jdName='더불어민주당'), Councilor(name='유영숙', jdName='국민의힘'), Councilor(name='김계순', jdName='더불어민주당'), Councilor(name='김종혁', jdName='국민의힘'), Councilor(name='한종우', jdName='국민의힘'), Councilor(name='황성석', jdName='국민의힘'), Councilor(name='김기남', jdName='더불어민주당'), Councilor(name='권민찬', jdName='국민의힘'), Councilor(name='유매희', jdName='더불어민주당'), Councilor(name='김현주', jdName='국민의힘'), Councilor(name='정영혜', jdName='더불어민주당')]
+101 번째 의회에는, 11 명의 의원이 있습니다.
+주임록 is name
+
+허경행 is name
+
+박상영 is name
+
+황소제 is name
+
+이주훈 is name
+
+노영준 is name
+
+오현주 is name
+
+이은채 is name
+
+최서윤 is name
+
+왕정훈 is name
+
+조예란 is name
+
+| 101 | [Councilor(name='주임록', jdName='무소속'), Councilor(name='허경행', jdName='국민의힘'), Councilor(name='박상영', jdName='더불어민주당'), Councilor(name='황소제', jdName='더불어민주당'), Councilor(name='이주훈', jdName='국민의힘'), Councilor(name='노영준', jdName='국민의힘'), Councilor(name='오현주', jdName='더불어민주당'), Councilor(name='이은채', jdName='더불어민주당'), Councilor(name='최서윤', jdName='국민의힘'), Councilor(name='왕정훈', jdName='더불어민주당'), Councilor(name='조예란', jdName='국민의힘')]
+102 번째 의회에는, 7 명의 의원이 있습니다.
+| 102 | [Councilor(name='서과석', jdName='국민의힘'), Councilor(name='연제창', jdName='더불어민주당'), Councilor(name='임종훈', jdName='무소속'), Councilor(name='김현규', jdName='더불어민주당'), Councilor(name='손세화', jdName='더불어민주당'), Councilor(name='안애경', jdName='국민의힘'), Councilor(name='조진숙', jdName='국민의힘')]
+103 번째 의회에는, 7 명의 의원이 있습니다.
+| 103 | [Councilor(name='심상금', jdName='국민의힘'), Councilor(name='김미경', jdName='국민의힘'), Councilor(name='박영철', jdName='국민의힘'), Councilor(name='박양희', jdName='더불어민주당'), Councilor(name='박운서', jdName='국민의힘'), Councilor(name='윤재구', jdName='더불어민주당'), Councilor(name='배두영', jdName='국민의힘')]
+104 번째 의회에는, 7 명의 의원이 있습니다.
+| 104 | [Councilor(name='윤순옥', jdName='국민의힘'), Councilor(name='황선호', jdName='국민의힘'), Councilor(name='최영보', jdName='더불어민주당'), Councilor(name='송진욱', jdName='국민의힘'), Councilor(name='여현정', jdName='더불어민주당'), Councilor(name='지민희', jdName='국민의힘'), Councilor(name='오혜자', jdName='국민의힘')]
+105 번째 의회에는, 7 명의 의원이 있습니다.
+| 105 | [Councilor(name='최정용', jdName='국민의힘'), Councilor(name='강민숙', jdName='더불어민주당'), Councilor(name='최원중', jdName='국민의힘'), Councilor(name='김경수', jdName='국민의힘'), Councilor(name='김종성', jdName='더불어민주당'), Councilor(name='양재성', jdName='더불어민주당'), Councilor(name='이진옥', jdName='국민의힘')]
+| 106 | 오류:  /usr/local/lib/python3.10/dist-packages/soupsieve/css_parser.py:856: FutureWarning: The pseudo class ':contains' is deprecated, ':-soup-contains' should be used moving forward.
+  warnings.warn(  # noqa: B028
+지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  http://council.chuncheon.go.kr/sub1_0.php
+| 107 | [Councilor(name='곽문근', jdName='더불어민주당'), Councilor(name='권아름', jdName='더불어민주당'), Councilor(name='김지헌', jdName='더불어민주당'), Councilor(name='김학배', jdName='국민의힘'), Councilor(name='김혁성', jdName='더불어민주당'), Councilor(name='나윤선', jdName='국민의힘'), Councilor(name='문정환', jdName='더불어민주당'), Councilor(name='박한근', jdName='국민의힘'), Councilor(name='손준기', jdName='더불어민주당'), Councilor(name='신익선', jdName='국민의힘'), Councilor(name='심영미', jdName='국민의힘'), Councilor(name='안정민', jdName='더불어민주당'), Councilor(name='원용대', jdName='국민의힘'), Councilor(name='유오현', jdName='국민의힘'), Councilor(name='이병규', jdName='국민의힘'), Councilor(name='이상길', jdName='더불어민주당'), Councilor(name='이재용', jdName='국민의힘'), Councilor(name='조용기', jdName='국민의힘'), Councilor(name='조용석', jdName='국민의힘'), Councilor(name='조창휘', jdName='국민의힘'), Councilor(name='차은숙', jdName='더불어민주당'), Councilor(name='최미옥', jdName='더불어민주당'), Councilor(name='홍기상', jdName='더불어민주당'), Councilor(name='황정순', jdName='국민의힘')]
+108 번째 의회에는, 19 명의 의원이 있습니다.
+| 108 | [Councilor(name='김기영', jdName='국민의힘'), Councilor(name='배용주', jdName='더불어민주당'), Councilor(name='윤희주', jdName='국민의힘'), Councilor(name='김진용', jdName='국민의힘'), Councilor(name='김용남', jdName='더불어민주당'), Councilor(name='허병관', jdName='국민의힘'), Councilor(name='조대영', jdName='국민의힘'), Councilor(name='최익순', jdName='국민의힘'), Councilor(name='김영식', jdName='국민의힘'), Councilor(name='김은숙', jdName='더불어민주당'), Councilor(name='김홍수', jdName='국민의힘'), Councilor(name='이용래', jdName='더불어민주당'), Councilor(name='김현수', jdName='더불어민주당'), Councilor(name='김문섭', jdName='더불어민주당'), Councilor(name='권순민', jdName='국민의힘'), Councilor(name='서정무', jdName='더불어민주당'), Councilor(name='박경난', jdName='더불어민주당'), Councilor(name='홍정완', jdName='더불어민주당'), Councilor(name='신보금', jdName='국민의힘')]
+109 번째 의회에는, 7 명의 의원이 있습니다.
+| 109 | [Councilor(name='김향정', jdName='더불어민주당'), Councilor(name='민귀희', jdName='국민의힘'), Councilor(name='안성준', jdName='국민의힘'), Councilor(name='이동호', jdName='더불어민주당'), Councilor(name='이창수', jdName='더불어민주당'), Councilor(name='정동수', jdName='국민의힘'), Councilor(name='최이순', jdName='더불어민주당')]
+110 번째 의회에는, 8 명의 의원이 있습니다.
+| 110 | [Councilor(name='정정순', jdName='국민의힘'), Councilor(name='양희전', jdName='국민의힘'), Councilor(name='권정복', jdName='국민의힘'), Councilor(name='이광우', jdName='더불어민주당'), Councilor(name='김희창', jdName='더불어민주당'), Councilor(name='김원학', jdName='국민의힘'), Councilor(name='정연철', jdName='국민의힘'), Councilor(name='김재구', jdName='국민의힘')]
+| 111 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://council.taebaek.go.kr/source/korean/member/active.html
+112 번째 의회에는, 7 명의 의원이 있습니다.
+| 112 | [Councilor(name='전영기', jdName='더불어민주당'), Councilor(name='배왕섭', jdName='더불어민주당'), Councilor(name='김영덕', jdName='국민의힘'), Councilor(name='전흥표', jdName='더불어민주당'), Councilor(name='전광표', jdName='국민의힘'), Councilor(name='조현화', jdName='더불어민주당'), Councilor(name='송수옥', jdName='국민의힘')]
+| 113 | [Councilor(name='김명길', jdName='국민의힘'), Councilor(name='방원욱', jdName='더불어민주당'), Councilor(name='신선익', jdName='더불어민주당'), Councilor(name='염하나', jdName='국민의힘'), Councilor(name='이명애', jdName='국민의힘'), Councilor(name='정인교', jdName='국민의힘'), Councilor(name='최종현', jdName='더불어민주당')]
+| 114 | [Councilor(name='김일용', jdName='국민의힘'), Councilor(name='이순매', jdName='국민의힘'), Councilor(name='김진', jdName='국민의힘'), Councilor(name='송흥복', jdName='국민의힘'), Councilor(name='용광열', jdName='국민의힘'), Councilor(name='함형진', jdName='더불어민주당'), Councilor(name='함용빈', jdName='국민의힘')]
+| 115 | [Councilor(name='오세만', jdName='국민의힘'), Councilor(name='최선남', jdName='국민의힘'), Councilor(name='김의성', jdName='국민의힘'), Councilor(name='박봉균', jdName='더불어민주당'), Councilor(name='이종석', jdName='국민의힘'), Councilor(name='박광수', jdName='국민의힘'), Councilor(name='이명숙', jdName='국민의힘')]
+정보 없음이 포함되어 있습니다.
+| 116 | [Councilor(name='이춘만', jdName='정당 정보 없음'), Councilor(name='조춘식', jdName='정당 정보 없음'), Councilor(name='김도형', jdName='정당 정보 없음'), Councilor(name='김재규', jdName='정당 정보 없음'), Councilor(name='신동성', jdName='정당 정보 없음'), Councilor(name='이수현', jdName='정당 정보 없음'), Councilor(name='황현희', jdName='정당 정보 없음')]
+| 117 | [Councilor(name='박영록', jdName='국민의힘'), Councilor(name='최이경', jdName='더불어 민주당'), Councilor(name='용준식', jdName='국민의힘'), Councilor(name='이광재', jdName='더불어민주당'), Councilor(name='김광수', jdName='국민의힘'), Councilor(name='용준순', jdName='더불어민주당'), Councilor(name='나기호', jdName='더불어민주당'), Councilor(name='황경화', jdName='국민의힘')]
+| 118 | [Councilor(name='김영숙', jdName='국민의힘'), Councilor(name='표한상', jdName='국민의힘'), Councilor(name='김은숙', jdName='국민의힘'), Councilor(name='백오인', jdName='더불어민주당'), Councilor(name='박승남', jdName='국민의힘'), Councilor(name='유병화', jdName='더불어민주당'), Councilor(name='정운현', jdName='국민의힘')]
+| 119 | [Councilor(name='심재섭', jdName='국민의힘'), Councilor(name='이병용', jdName='국민의힘'), Councilor(name='김대경', jdName='국민의힘'), Councilor(name='김상태', jdName='더불어민주당'), Councilor(name='박해경', jdName='국민의힘'), Councilor(name='선주헌', jdName='국민의힘'), Councilor(name='임영화', jdName='더불어민주당')]
+| 120 | [Councilor(name='김광성', jdName='더불어민주당'), Councilor(name='김성기', jdName='국민의힘'), Councilor(name='남진삼', jdName='국민의힘'), Councilor(name='박춘희', jdName='국민의힘'), Councilor(name='심현정', jdName='국민의힘'), Councilor(name='이은미', jdName='더불어민주당'), Councilor(name='이창열', jdName='국민의힘')]
+정보 없음이 포함되어 있습니다.
+| 121 | [Councilor(name='노이업', jdName='정당 정보 없음'), Councilor(name='이선희', jdName='정당 정보 없음'), Councilor(name='류희상', jdName='정당 정보 없음'), Councilor(name='김동완', jdName='정당 정보 없음'), Councilor(name='김명진', jdName='정당 정보 없음'), Councilor(name='조웅희', jdName='정당 정보 없음'), Councilor(name='조재규', jdName='정당 정보 없음')]
+정보 없음이 포함되어 있습니다.
+| 122 | [Councilor(name='박귀남', jdName='정당 정보 없음'), Councilor(name='김선묵', jdName='정당 정보 없음'), Councilor(name='조돈준', jdName='정당 정보 없음'), Councilor(name='신철우', jdName='정당 정보 없음'), Councilor(name='김정미', jdName='정당 정보 없음'), Councilor(name='이상철', jdName='정당 정보 없음'), Councilor(name='김기철', jdName='정당 정보 없음')]
+정보 없음이 포함되어 있습니다.
+| 123 | [Councilor(name='박기준', jdName='정당 정보 없음'), Councilor(name='한종문', jdName='정당 정보 없음'), Councilor(name='강세용', jdName='정당 정보 없음'), Councilor(name='이미경', jdName='정당 정보 없음'), Councilor(name='장용', jdName='정당 정보 없음'), Councilor(name='김광성', jdName='정당 정보 없음'), Councilor(name='이다은', jdName='정당 정보 없음')]
+| 124 | [Councilor(name='김기동', jdName='더불어민주당'), Councilor(name='김병국', jdName='국민의힘'), Councilor(name='김성택', jdName='더불어민주당'), Councilor(name='김영근', jdName='더불어민주당'), Councilor(name='김완식', jdName='국민의힘'), Councilor(name='김은숙', jdName='더불어민주당'), Councilor(name='김태순', jdName='국민의힘'), Councilor(name='김현기', jdName='국민의힘'), Councilor(name='남연심', jdName='국민의힘'), Councilor(name='남일현', jdName='더불어민주당'), Councilor(name='박근영', jdName='국민의힘'), Councilor(name='박노학', jdName='국민의힘'), Councilor(name='박봉규', jdName='국민의힘'), Councilor(name='박승찬', jdName='더불어민주당'), Councilor(name='박완희', jdName='더불어민주당'), Councilor(name='변은영', jdName='더불어민주당'), Councilor(name='송병호', jdName='더불어민주당'), Councilor(name='신민수', jdName='더불어민주당'), Councilor(name='신승호', jdName='더불어민주당'), Councilor(name='안성현', jdName='국민의힘'), Councilor(name='유광욱', jdName='국민의힘'), Councilor(name='이상조', jdName='국민의힘'), Councilor(name='이영신', jdName='더불어민주당'), Councilor(name='이완복', jdName='국민의힘'), Councilor(name='이우균', jdName='국민의힘'), Councilor(name='이인숙', jdName='국민의힘'), Councilor(name='이종민', jdName='국민의힘'), Councilor(name='이한국', jdName='국민의힘'), Councilor(name='이화정', jdName='국민의힘'), Councilor(name='임은성', jdName='더불어민주당'), Councilor(name='임정수', jdName='무소속'), Councilor(name='정연숙', jdName='더불어민주당'), Councilor(name='정영석', jdName='국민의힘'), Councilor(name='정재우', jdName='더불어민주당'), Councilor(name='정태훈', jdName='국민의힘'), Councilor(name='최재호', jdName='더불어민주당'), Councilor(name='한동순', jdName='더불어민주당'), Councilor(name='허철', jdName='더불어민주당'), Councilor(name='홍성각', jdName='국민의힘'), Councilor(name='홍순철', jdName='국민의힘')]
+| 125 | [Councilor(name='박해수', jdName='국민의힘'), Councilor(name='유영기', jdName='더불어민주당'), Councilor(name='김영석', jdName='국민의힘'), Councilor(name='김낙우', jdName='국민의힘'), Councilor(name='최지원', jdName='국민의힘'), Councilor(name='홍성억', jdName='국민의힘'), Councilor(name='이옥순', jdName='국민의힘'), Councilor(name='신효일', jdName='국민의힘'), Councilor(name='강명철', jdName='국민의힘'), Councilor(name='고민서', jdName='국민의힘'), Councilor(name='곽명환', jdName='더불어민주당'), Councilor(name='김자운', jdName='더불어민주당'), Councilor(name='박상호', jdName='더불어민주당'), Councilor(name='서원복', jdName='국민의힘'), Councilor(name='손상현', jdName='더불어민주당'), Councilor(name='이두원', jdName='더불어민주당'), Councilor(name='이회수', jdName='더불어민주당'), Councilor(name='정용학', jdName='국민의힘'), Councilor(name='채희락', jdName='더불어민주당')]
+| 126 | [Councilor(name='권오규', jdName='더불어민주당'), Councilor(name='김수완', jdName='더불어민주당'), Councilor(name='이재신', jdName='더불어민주당'), Councilor(name='한명숙', jdName='더불어민주당'), Councilor(name='홍석용', jdName='더불어민주당'), Councilor(name='김진환', jdName='국민의힘'), Councilor(name='박영기', jdName='국민의힘'), Councilor(name='박해윤', jdName='국민의힘'), Councilor(name='송수연', jdName='국민의힘'), Councilor(name='윤치국', jdName='국민의힘'), Councilor(name='이경리', jdName='국민의힘'), Councilor(name='이영순', jdName='국민의힘'), Councilor(name='이정임', jdName='국민의힘')]
+127 번째 의회에는, 7 명의 의원이 있습니다.
+| 127 | [Councilor(name='김영길', jdName='국민의힘'), Councilor(name='장영갑', jdName='더불어민주당'), Councilor(name='조성룡', jdName='국민의힘'), Councilor(name='강미숙', jdName='더불어민주당'), Councilor(name='오시백', jdName='더불어민주당'), Councilor(name='이상훈', jdName='국민의힘'), Councilor(name='김혜숙', jdName='국민의힘')]
+128 번째 의회에는, 8 명의 의원이 있습니다.
+| 128 | [Councilor(name='이승주', jdName='국민의힘'), Councilor(name='황승연', jdName='국민의힘'), Councilor(name='이대호', jdName='더불어민주당'), Councilor(name='김오봉', jdName='국민의힘'), Councilor(name='신현광', jdName='국민의힘'), Councilor(name='이수동', jdName='더불어민주당'), Councilor(name='안정훈', jdName='더불어민주당'), Councilor(name='김은하', jdName='국민의힘')]
+| 129 | 오류: Request to https://council.boeun.go.kr/kr/member/active.do timed out.
+130 번째 의회에는, 8 명의 의원이 있습니다.
+| 130 | [Councilor(name='박한범', jdName='국민의힘'), Councilor(name='이병우', jdName='더불어민주당'), Councilor(name='박정옥', jdName='국민의힘'), Councilor(name='김경숙', jdName='국민의힘'), Councilor(name='조규룡', jdName='국민의힘'), Councilor(name='추복성', jdName='국민의힘'), Councilor(name='김외식', jdName='더불어민주당'), Councilor(name='송윤섭', jdName='진보당')]
+131 번째 의회에는, 8 명의 의원이 있습니다.
+| 131 | [Councilor(name='안해성', jdName='국민의힘'), Councilor(name='유창원', jdName='국민의힘'), Councilor(name='서효석', jdName='더불어민주당'), Councilor(name='박흥식', jdName='국민의힘'), Councilor(name='조천희', jdName='더불어민주당'), Councilor(name='김영호', jdName='국민의힘'), Councilor(name='최용락', jdName='더불어민주당'), Councilor(name='송춘홍', jdName='국민의힘')]
+| 132 | [Councilor(name='김기복', jdName='더불어민주당'), Councilor(name='김성우', jdName='더불어민주당'), Councilor(name='임정열', jdName='더불어민주당'), Councilor(name='장동현', jdName='국민의힘'), Councilor(name='윤대영', jdName='국민의힘'), Councilor(name='이재명', jdName='국민의힘'), Councilor(name='이강선', jdName='국민의힘'), Councilor(name='성한경', jdName='국민의힘')]
+133 번째 의회에는, 8 명의 의원이 있습니다.
+| 133 | [Councilor(name='신송규', jdName='국민의힘'), Councilor(name='장옥자', jdName='국민의힘'), Councilor(name='김주성', jdName='국민의힘'), Councilor(name='김낙영', jdName='더불어민주당'), Councilor(name='김영희', jdName='국민의힘'), Councilor(name='안미선', jdName='무소속'), Councilor(name='최경섭', jdName='더불어민주당'), Councilor(name='송영순', jdName='국민의힘')]
+| 134 | []
+135 번째 의회에는, 27 명의 의원이 있습니다.
+| 135 | [Councilor(name='강성기', jdName='국민의힘'), Councilor(name='권오중', jdName='국민의힘'), Councilor(name='김강진', jdName='국민의힘'), Councilor(name='김길자', jdName='더불어민주당'), Councilor(name='김명숙', jdName='더불어민주당'), Councilor(name='김미화', jdName='더불어민주당'), Councilor(name='김영한', jdName='국민의힘'), Councilor(name='김철환', jdName='국민의힘'), Councilor(name='김행금', jdName='국민의힘'), Councilor(name='노종관', jdName='국민의힘'), Councilor(name='류제국', jdName='더불어민주당'), Councilor(name='박종갑', jdName='더불어민주당'), Councilor(name='배성민', jdName='더불어민주당'), Councilor(name='복아영', jdName='더불어민주당'), Councilor(name='엄소영', jdName='더불어민주당'), Councilor(name='유수희', jdName='국민의힘'), Councilor(name='유영채', jdName='더불어민주당'), Councilor(name='유영진', jdName='국민의힘'), Councilor(name='육종영', jdName='더불어민주당'), Councilor(name='이병하', jdName='더불어민주당'), Councilor(name='이상구', jdName='국민의힘'), Councilor(name='이종담', jdName='더불어민주당'), Councilor(name='이종만', jdName='국민의힘'), Councilor(name='이지원', jdName='국민의힘'), Councilor(name='장혁', jdName='국민의힘'), Councilor(name='정도희', jdName='국민의힘'), Councilor(name='정선희', jdName='더불어민주당')]
+136 번째 의회에는, 12 명의 의원이 있습니다.
+| 136 | [Councilor(name='강현철', jdName='국민의힘'), Councilor(name='구본길', jdName='더불어민주당'), Councilor(name='송영월', jdName='국민의힘'), Councilor(name='이범수', jdName='국민의힘'), Councilor(name='임달희', jdName='더불어민주당'), Councilor(name='서승열', jdName='더불어민주당'), Councilor(name='윤구병', jdName='국민의힘'), Councilor(name='김권한', jdName='더불어민주당'), Councilor(name='이상표', jdName='더불어민주당'), Councilor(name='이용성', jdName='국민의힘'), Councilor(name='권경운', jdName='국민의힘'), Councilor(name='임규연', jdName='더불어민주당')]
+137 번째 의회에는, 12 명의 의원이 있습니다.
+| 137 | [Councilor(name='박상모', jdName='국민의힘'), Councilor(name='김충호', jdName='국민의힘'), Councilor(name='백성현', jdName='국민의힘'), Councilor(name='이정근', jdName='더불어민주당'), Councilor(name='백영창', jdName='국민의힘'), Councilor(name='성태용', jdName='더불어민주당'), Councilor(name='최은순', jdName='국민의힘'), Councilor(name='김정훈', jdName='국민의힘'), Councilor(name='조장현', jdName='더불어민주당'), Councilor(name='김재관', jdName='국민의힘'), Councilor(name='서경옥', jdName='국민의힘'), Councilor(name='추보라', jdName='더불어민주당')]
+138 번째 의회에는, 17 명의 의원이 있습니다.
+| 138 | [Councilor(name='김희영', jdName='더불어민주당'), Councilor(name='이기애', jdName='국민의힘'), Councilor(name='홍성표', jdName='더불어민주당'), Councilor(name='맹의석', jdName='국민의힘'), Councilor(name='안정근', jdName='더불어민주당'), Councilor(name='김미영', jdName='더불어민주당'), Councilor(name='윤원준', jdName='국민의힘'), Councilor(name='명노봉', jdName='더불어민주당'), Councilor(name='박효진', jdName='국민의힘'), Councilor(name='천철호', jdName='더불어민주당'), Councilor(name='김미성', jdName='더불어민주당'), Councilor(name='전남수', jdName='국민의힘'), Councilor(name='김은아', jdName='국민의힘'), Councilor(name='이춘호', jdName='더불어민주당'), Councilor(name='홍순철', jdName='국민의힘'), Councilor(name='김은복', jdName='더불어민주당'), Councilor(name='신미진', jdName='국민의힘')]
+| 139 | 오류: HTTPSConnectionPool(host='www.scc.go.kr', port=443): Max retries exceeded with url: /index.php?MenuID=48 (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1007)')))
+| 140 | [Councilor(name='신경철', jdName='더불어민주당'), Councilor(name='전재옥', jdName='더불어민주당'), Councilor(name='김기두', jdName='더불어민주당'), Councilor(name='김영인', jdName='무소속'), Councilor(name='김진권', jdName='국민의힘'), Councilor(name='박용성', jdName='더불어민주당'), Councilor(name='박선의', jdName='국민의힘')]
+141 번째 의회에는, 7 명의 의원이 있습니다.
+| 141 | [Councilor(name='김기윤', jdName='국민의힘'), Councilor(name='정옥균', jdName='더불어민주당'), Councilor(name='최명수', jdName='국민의힘'), Councilor(name='송영천', jdName='국민의힘'), Councilor(name='박병훈', jdName='더불어민주당'), Councilor(name='심정수', jdName='무소속'), Councilor(name='정기수', jdName='국민의힘')]
+| 142 | [Councilor(name='서원', jdName='더불어민주당'), Councilor(name='이상구', jdName='국민의힘'), Councilor(name='서승필', jdName='더불어민주당'), Councilor(name='민병춘', jdName='더불어민주당'), Councilor(name='김남충', jdName='국민의힘'), Councilor(name='조용훈', jdName='더불어민주당'), Councilor(name='조배식', jdName='더불어민주당'), Councilor(name='장진호', jdName='국민의힘'), Councilor(name='홍태의', jdName='국민의힘'), Councilor(name='김종욱', jdName='더불어민주당'), Councilor(name='이태모', jdName='국민의힘'), Councilor(name='윤금숙', jdName='더불어민주당'), Councilor(name='허명숙', jdName='국민의힘')]
+143 번째 의회에는, 7 명의 의원이 있습니다.
+| 143 | [Councilor(name='김범규', jdName='국민의힘'), Councilor(name='이청환', jdName='더불어민주당'), Councilor(name='이용권', jdName='국민의힘'), Councilor(name='신동원', jdName='국민의힘'), Councilor(name='조광국', jdName='더불어민주당'), Councilor(name='김미정', jdName='더불어민주당'), Councilor(name='최국락', jdName='국민의힘')]
+144 번째 의회에는, 14 명의 의원이 있습니다.
+| 144 | [Councilor(name='김덕주', jdName='국민의힘'), Councilor(name='김명진', jdName='더불어민주당'), Councilor(name='김명회', jdName='국민의힘'), Councilor(name='김봉균', jdName='국민의힘'), Councilor(name='김선호', jdName='더불어민주당'), Councilor(name='박명우', jdName='더불어민주당'), Councilor(name='서영훈', jdName='국민의힘'), Councilor(name='심의수', jdName='국민의힘'), Councilor(name='윤명수', jdName='더불어민주당'), Councilor(name='전선아', jdName='국민의힘'), Councilor(name='전영옥', jdName='국민의힘'), Councilor(name='조상연', jdName='더불어민주당'), Councilor(name='최연숙', jdName='더불어민주당'), Councilor(name='한상화', jdName='더불어민주당')]
+| 145 | 오류: HTTPSConnectionPool(host='council.buyeo.go.kr', port=443): Max retries exceeded with url: /kr/member/active2.do (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+| 146 | 오류: HTTPSConnectionPool(host='www.scouncil.go.kr', port=443): Max retries exceeded with url: /kr/prog/asemby/sub02_01/list.do (Caused by SSLError(SSLError(1, '[SSL: WRONG_SIGNATURE_TYPE] wrong signature type (_ssl.c:1007)')))
+147 번째 의회에는, 11 명의 의원이 있습니다.
+| 147 | [Councilor(name='이선균', jdName='국민의힘'), Councilor(name='장재석', jdName='국민의힘'), Councilor(name='권영식', jdName='국민의힘'), Councilor(name='김은미', jdName='국민의힘'), Councilor(name='문병오', jdName='더불어민주당'), Councilor(name='김덕배', jdName='국민의힘'), Councilor(name='최선경', jdName='더불어민주당'), Councilor(name='윤일순', jdName='국민의힘'), Councilor(name='신동규', jdName='더불어민주당'), Councilor(name='이정희', jdName='더불어민주당'), Councilor(name='이정윤', jdName='국민의힘')]
+148 번째 의회에는, 7 명의 의원이 있습니다.
+| 148 | [Councilor(name='차미숙', jdName='더불어민주당'), Councilor(name='이경우', jdName='더불어민주당'), Councilor(name='윤일묵운영위원장', jdName='국민의힘'), Councilor(name='김기준', jdName='더불어민주당'), Councilor(name='임상기', jdName='더불어민주당'), Councilor(name='이봉규', jdName='국민의힘'), Councilor(name='정혜선', jdName='국민의힘')]
+149 번째 의회에는, 11 명의 의원이 있습니다.
+| 149 | [Councilor(name='이상우', jdName='국민의힘'), Councilor(name='홍원표', jdName='국민의힘'), Councilor(name='강선구', jdName='더불어민주당'), Councilor(name='김영진', jdName='국민의힘'), Councilor(name='김태금', jdName='국민의힘'), Councilor(name='박중수', jdName='국민의힘'), Councilor(name='심완예', jdName='국민의힘'), Councilor(name='이길원', jdName='국민의힘'), Councilor(name='이정순', jdName='더불어민주당'), Councilor(name='임종용', jdName='더불어민주당'), Councilor(name='장순관', jdName='국민의힘')]
+150 번째 의회에는, 35 명의 의원이 있습니다.
+| 150 | [Councilor(name='김동헌', jdName='더불어민주당'), Councilor(name='김성규', jdName='더불어민주당'), Councilor(name='김세혁', jdName='더불어민주당'), Councilor(name='김원주', jdName='더불어민주당'), Councilor(name='김윤철', jdName='더불어민주당'), Councilor(name='김정명', jdName='더불어민주당'), Councilor(name='김학송', jdName='더불어민주당'), Councilor(name='김현덕', jdName='무소속'), Councilor(name='남관우', jdName='더불어민주당'), Councilor(name='박선전', jdName='더불어민주당'), Councilor(name='박형배', jdName='더불어민주당'), Councilor(name='박혜숙', jdName='무소속'), Councilor(name='송영진', jdName='더불어민주당'), Councilor(name='신유정', jdName='더불어민주당'), Councilor(name='양영환', jdName='무소속'), Councilor(name='온혜정', jdName='더불어민주당'), Councilor(name='이국', jdName='더불어민주당'), Councilor(name='이기동', jdName='더불어민주당'), Councilor(name='이남숙', jdName='더불어민주당'), Councilor(name='이병하', jdName='더불어민주당'), Councilor(name='이보순', jdName='더불어민주당'), Councilor(name='이성국', jdName='더불어민주당'), Councilor(name='장병익', jdName='더불어민주당'), Councilor(name='장재희', jdName='더불어민주당'), Councilor(name='전윤미', jdName='더불어민주당'), Councilor(name='정섬길', jdName='더불어민주당'), Councilor(name='채영병', jdName='무소속'), Councilor(name='천서영', jdName='국민의힘'), Councilor(name='최명권', jdName='더불어민주당'), Councilor(name='최명철', jdName='더불어민주당'), Councilor(name='최서연', jdName='더불어민주당'), Councilor(name='최용철', jdName='더불어민주당'), Councilor(name='최주만', jdName='더불어민주당'), Councilor(name='최지은', jdName='더불어민주당'), Councilor(name='한승우', jdName='정의당')]
+151 번째 의회에는, 23 명의 의원이 있습니다.
+| 151 | [Councilor(name='김영일', jdName='더불어민주당'), Councilor(name='김우민', jdName='더불어민주당'), Councilor(name='김경구', jdName='더불어민주당'), Councilor(name='김경식', jdName='더불어민주당'), Councilor(name='김영란', jdName='더불어민주당'), Councilor(name='김영자', jdName='더불어민주당'), Councilor(name='나종대', jdName='더불어민주당'), Councilor(name='박경태', jdName='더불어민주당'), Councilor(name='박광일', jdName='더불어민주당'), Councilor(name='서동수', jdName='더불어민주당'), Councilor(name='서동완', jdName='더불어민주당'), Councilor(name='서은식', jdName='더불어민주당'), Councilor(name='설경민', jdName='더불어민주당'), Councilor(name='송미숙', jdName='더불어민주당'), Councilor(name='양세용', jdName='더불어민주당'), Councilor(name='우종삼', jdName='더불어민주당'), Councilor(name='윤세자', jdName='국민의힘'), Councilor(name='윤신애', jdName='더불어민주당'), Councilor(name='이연화', jdName='더불어민주당'), Councilor(name='이한세', jdName='더불어민주당'), Councilor(name='지해춘', jdName='더불어민주당'), Councilor(name='최창호', jdName='더불어민주당'), Councilor(name='한경봉', jdName='더불어민주당')]
+152 번째 의회에는, 25 명의 의원이 있습니다.
+| 152 | [Councilor(name='강경숙', jdName='더불어민주당'), Councilor(name='김경진', jdName='더불어민주당'), Councilor(name='김미선', jdName='더불어민주당'), Councilor(name='김순덕', jdName='더불어민주당'), Councilor(name='김진규', jdName='더불어민주당'), Councilor(name='김충영', jdName='더불어민주당'), Councilor(name='박종대', jdName='더불어민주당'), Councilor(name='박철원', jdName='더불어민주당'), Councilor(name='소길영', jdName='더불어민주당'), Councilor(name='손진영', jdName='진보당'), Councilor(name='송영자', jdName='국민의힘'), Councilor(name='신용', jdName='더불어민주당'), Councilor(name='양정민', jdName='더불어민주당'), Councilor(name='오임선', jdName='더불어민주당'), Councilor(name='유재구', jdName='더불어민주당'), Councilor(name='이종현', jdName='무소속'), Councilor(name='이중선', jdName='더불어민주당'), Councilor(name='장경호', jdName='더불어민주당'), Councilor(name='정영미', jdName='더불어민주당'), Councilor(name='조규대', jdName='무소속'), Councilor(name='조남석', jdName='무소속'), Councilor(name='조은희', jdName='더불어민주당'), Councilor(name='최재현', jdName='더불어민주당'), Councilor(name='최종오', jdName='더불어민주당'), Councilor(name='한동연', jdName='더불어민주당')]
+153 번째 의회에는, 17 명의 의원이 있습니다.
+| 153 | [Councilor(name='고경윤', jdName='더불어민주당'), Councilor(name='황혜숙', jdName='더불어민주당'), Councilor(name='오명제', jdName='더불어민주당'), Councilor(name='오승현', jdName='무소속'), Councilor(name='고성환', jdName='더불어민주당'), Councilor(name='이복형', jdName='더불어민주당'), Councilor(name='정상철', jdName='더불어민주당'), Councilor(name='김승범', jdName='무소속'), Councilor(name='최재기', jdName='더불어민주당'), Councilor(name='이도형', jdName='무소속'), Councilor(name='김석환', jdName='더불어민주당'), Councilor(name='박일', jdName='더불어민주당'), Councilor(name='서향경', jdName='더불어민주당'), Councilor(name='이만재', jdName='무소속'), Councilor(name='이상길', jdName='더불어민주당'), Councilor(name='송기순', jdName='더불어민주당'), Councilor(name='한선미', jdName='더불어민주당')]
+정보 없음이 포함되어 있습니다.
+| 154 | [Councilor(name='강인식', jdName='정당 정보 없음'), Councilor(name='김길수', jdName='정당 정보 없음'), Councilor(name='김영태', jdName='정당 정보 없음'), Councilor(name='김정현', jdName='정당 정보 없음'), Councilor(name='김한수', jdName='정당 정보 없음'), Councilor(name='소태수', jdName='정당 정보 없음'), Councilor(name='손중열', jdName='정당 정보 없음'), Councilor(name='염봉섭', jdName='정당 정보 없음'), Councilor(name='오동환', jdName='정당 정보 없음'), Councilor(name='오창숙', jdName='정당 정보 없음'), Councilor(name='윤지홍', jdName='정당 정보 없음'), Councilor(name='이기열', jdName='정당 정보 없음'), Councilor(name='이미선', jdName='정당 정보 없음'), Councilor(name='이숙자', jdName='정당 정보 없음'), Councilor(name='전평기', jdName='정당 정보 없음'), Councilor(name='한명숙', jdName='정당 정보 없음')]
+정보 없음이 포함되어 있습니다.
+| 155 | [Councilor(name='유진우', jdName='정당 정보 없음'), Councilor(name='주상현', jdName='정당 정보 없음'), Councilor(name='오승경', jdName='정당 정보 없음'), Councilor(name='이병철', jdName='정당 정보 없음'), Councilor(name='김주택', jdName='정당 정보 없음'), Councilor(name='이정자', jdName='정당 정보 없음'), Councilor(name='김영자', jdName='정당 정보 없음'), Councilor(name='최승선', jdName='정당 정보 없음'), Councilor(name='황배연', jdName='정당 정보 없음'), Councilor(name='김승일', jdName='정당 정보 없음'), Councilor(name='서백현', jdName='정당 정보 없음'), Councilor(name='양운엽', jdName='정당 정보 없음'), Councilor(name='문순자', jdName='정당 정보 없음'), Councilor(name='전수관', jdName='정당 정보 없음')]
+정보 없음이 포함되어 있습니다.
+| 156 | [Councilor(name='서남용', jdName='정당 정보 없음'), Councilor(name='이경애', jdName='정당 정보 없음'), Councilor(name='성중기', jdName='정당 정보 없음'), Councilor(name='심부건', jdName='정당 정보 없음'), Councilor(name='유이수', jdName='정당 정보 없음'), Councilor(name='이순덕', jdName='정당 정보 없음'), Councilor(name='이주갑', jdName='정당 정보 없음'), Councilor(name='최광호', jdName='정당 정보 없음'), Councilor(name='김규성', jdName='정당 정보 없음'), Councilor(name='김재천', jdName='정당 정보 없음'), Councilor(name='유의식', jdName='정당 정보 없음')]
+정보 없음이 포함되어 있습니다.
+| 157 | [Councilor(name='김민규', jdName='정당 정보 없음'), Councilor(name='이미옥', jdName='정당 정보 없음'), Councilor(name='손동규', jdName='정당 정보 없음'), Councilor(name='김명갑', jdName='정당 정보 없음'), Councilor(name='동창옥', jdName='정당 정보 없음'), Councilor(name='이명진', jdName='정당 정보 없음'), Councilor(name='이루라', jdName='정당 정보 없음')]
+158 번째 의회에는, 7 명의 의원이 있습니다.
+| 158 | [Councilor(name='이해양', jdName='더불어민주당'), Councilor(name='오광석', jdName='더불어민주당'), Councilor(name='최윤선', jdName='더불어민주당'), Councilor(name='송재기', jdName='무소속'), Councilor(name='문은영', jdName='더불어민주당'), Councilor(name='황인동', jdName='무소속'), Councilor(name='이영희', jdName='더불어민주당')]
+159 번째 의회에는, 6 명의 의원이 있습니다.
+| 159 | [Councilor(name='장정복', jdName='더불어민주당'), Councilor(name='이종섭', jdName='더불어민주당'), Councilor(name='최한주', jdName='더불어민주당'), Councilor(name='김광훈', jdName='더불어민주당'), Councilor(name='김남수', jdName='무소속'), Councilor(name='유경자', jdName='더불어민주당')]
+정보 없음이 포함되어 있습니다.
+| 160 | [Councilor(name='김정흠', jdName='정당 정보 없음'), Councilor(name='양주영', jdName='정당 정보 없음'), Councilor(name='장종민', jdName='정당 정보 없음'), Councilor(name='정칠성', jdName='정당 정보 없음'), Councilor(name='김왕중', jdName='정당 정보 없음'), Councilor(name='김종규', jdName='정당 정보 없음'), Councilor(name='이성재', jdName='정당 정보 없음'), Councilor(name='정일윤', jdName='정당 정보 없음')]
+| 161 | [Councilor(name='신정이', jdName='더불어민주당'), Councilor(name='조정희', jdName='더불어민주당'), Councilor(name='최용수', jdName='더불어민주당'), Councilor(name='마화룡', jdName='더불어민주당'), Councilor(name='이성용', jdName='더불어민주당'), Councilor(name='손종석', jdName='더불어민주당'), Councilor(name='오수환', jdName='더불어민주당'), Councilor(name='김정숙', jdName='더불어민주당')]
+정보 없음이 포함되어 있습니다.
+| 162 | [Councilor(name='조민규', jdName='정당 정보 없음'), Councilor(name='이경신', jdName='정당 정보 없음'), Councilor(name='박성만', jdName='정당 정보 없음'), Councilor(name='최인규', jdName='정당 정보 없음'), Councilor(name='임종훈', jdName='정당 정보 없음'), Councilor(name='임정호', jdName='정당 정보 없음'), Councilor(name='오세환', jdName='정당 정보 없음'), Councilor(name='조규철', jdName='정당 정보 없음'), Councilor(name='차남준', jdName='정당 정보 없음'), Councilor(name='이선덕', jdName='정당 정보 없음')]
+| 163 | [Councilor(name='박병래', jdName='더불어민주당'), Councilor(name='이강세', jdName='더불어민주당'), Councilor(name='김형대', jdName='더불어민주당'), Councilor(name='이용님', jdName='더불어민주당'), Councilor(name='김원진', jdName='더불어민주당'), Councilor(name='김광수', jdName='더불어민주당'), Councilor(name='이한수', jdName='더불어민주당'), Councilor(name='이현기', jdName='더불어민주당'), Councilor(name='박태수', jdName='더불어민주당'), Councilor(name='김두례', jdName='더불어민주당')]
+| 164 | [Councilor(name='고경욱', jdName='더불어민주당'), Councilor(name='김관호', jdName='더불어민주당'), Councilor(name='김귀선', jdName='더불어민주당'), Councilor(name='문차복', jdName='더불어민주당'), Councilor(name='박수경', jdName='더불어민주당'), Councilor(name='박용식', jdName='더불어민주당'), Councilor(name='박용준', jdName='더불어민주당'), Councilor(name='박유정', jdName='정의당'), Councilor(name='박창수', jdName='더불어민주당'), Councilor(name='박효상', jdName='더불어민주당'), Councilor(name='백동규', jdName='정의당'), Councilor(name='송선우', jdName='무소속'), Councilor(name='유창훈', jdName='더불어민주당'), Councilor(name='이동수', jdName='무소속'), Councilor(name='이형완', jdName='더불어민주당'), Councilor(name='정재훈', jdName='더불어민주당'), Councilor(name='조성오', jdName='더불어민주당'), Councilor(name='최원석', jdName='더불어민주당'), Councilor(name='최유란', jdName='더불어민주당'), Councilor(name='최지선', jdName='더불어민주당'), Councilor(name='최현주', jdName='정의당'), Councilor(name='최환석', jdName='더불어민주당')]
+| 165 | [Councilor(name='김영규', jdName='소속정당 : 더불어민주당'), Councilor(name='강재헌', jdName='소속정당 : 더불어민주당'), Councilor(name='강현태', jdName='소속정당 : 더불어민주당'), Councilor(name='정현주', jdName='소속정당 : 더불어민주당'), Councilor(name='민덕희', jdName='소속정당 : 더불어민주당'), Councilor(name='박영평', jdName='소속정당 : 더불어민주당'), Councilor(name='김철민', jdName='소속정당 : 더불어민주당'), Councilor(name='박성미', jdName='소속정당 : 더불어민주당'), Councilor(name='고용진', jdName='소속정당 : 더불어민주당'), Councilor(name='정신출', jdName='소속정당 : 더불어민주당'), Councilor(name='구민호', jdName='소속정당 : 더불어민주당'), Councilor(name='송하진', jdName='소속정당 : 더불어민주당'), Councilor(name='김행기', jdName='소속정당 : 더불어민주당'), Councilor(name='백인숙', jdName='소속정당 : 더불어민주당'), Councilor(name='이미경', jdName='소속정당 : 더불어민주당'), Councilor(name='정옥기', jdName='소속정당 : 더불어민주당'), Councilor(name='주재현', jdName='소속정당 : 더불어민주당'), Councilor(name='김종길', jdName='소속정당 : 더불어민주당'), Councilor(name='문갑태', jdName='소속정당 : 더불어민주당'), Councilor(name='이석주', jdName='소속정당 : 더불어민주당'), Councilor(name='이선효', jdName='소속정당 : 더불어민주당'), Councilor(name='이찬기', jdName='소속정당 : 더불어민주당'), Councilor(name='최정필', jdName='소속정당 : 더불어민주당'), Councilor(name='진명숙', jdName='소속정당 : 더불어민주당'), Councilor(name='김채경', jdName='소속정당 : 더불어민주당'), Councilor(name='홍현숙', jdName='소속정당 : 더불어민주당')]
+166 번째 의회에는, 25 명의 의원이 있습니다.
+| 166 | [Councilor(name='정병회', jdName='더불어민주당'), Councilor(name='나안수', jdName='더불어민주당'), Councilor(name='정홍준', jdName='더불어민주당'), Councilor(name='이영란', jdName='더불어민주당'), Councilor(name='김영진', jdName='더불어민주당'), Councilor(name='최병배', jdName='더불어민주당'), Councilor(name='강형구', jdName='더불어민주당'), Councilor(name='이복남', jdName='무소속'), Councilor(name='박계수', jdName='더불어민주당'), Councilor(name='오행숙', jdName='더불어민주당'), Councilor(name='유영갑', jdName='진보당'), Councilor(name='최미희', jdName='진보당'), Councilor(name='김미연', jdName='더불어민주당'), Councilor(name='신정란', jdName='더불어민주당'), Councilor(name='우성원', jdName='무소속'), Councilor(name='이향기', jdName='더불어민주당'), Councilor(name='장경순', jdName='더불어민주당'), Councilor(name='김태훈', jdName='더불어민주당'), Councilor(name='서선란', jdName='더불어민주당'), Councilor(name='최현아', jdName='더불어민주당'), Councilor(name='양동진', jdName='더불어민주당'), Councilor(name='이세은', jdName='국민의힘'), Councilor(name='유승현', jdName='더불어민주당'), Councilor(name='장경원', jdName='더불어민주당'), Councilor(name='정광현', jdName='더불어민주당')]
+정보 없음이 포함되어 있습니다.
+| 167 | [Councilor(name='이상만', jdName='정당 정보 없음'), Councilor(name='황광민', jdName='정당 정보 없음'), Councilor(name='김정숙', jdName='정당 정보 없음'), Councilor(name='이재남', jdName='정당 정보 없음'), Councilor(name='박소준', jdName='정당 정보 없음'), Councilor(name='임성환', jdName='정당 정보 없음'), Councilor(name='김철민', jdName='정당 정보 없음'), Councilor(name='김강정', jdName='정당 정보 없음'), Councilor(name='김관용', jdName='정당 정보 없음'), Councilor(name='김해원', jdName='정당 정보 없음'), Councilor(name='박성은', jdName='정당 정보 없음'), Councilor(name='조영미', jdName='정당 정보 없음'), Councilor(name='최문환', jdName='정당 정보 없음'), Councilor(name='최정기', jdName='정당 정보 없음'), Councilor(name='한형철', jdName='정당 정보 없음'), Councilor(name='홍영섭', jdName='정당 정보 없음')]
+168 번째 의회에는, 14 명의 의원이 있습니다.
+| 168 | [Councilor(name='서영배', jdName='더불어민주당'), Councilor(name='백성호', jdName='진보당'), Councilor(name='안영헌', jdName='더불어민주당'), Councilor(name='정구호', jdName='더불어민주당'), Councilor(name='최대원', jdName='더불어민주당'), Councilor(name='송재천', jdName='무소속'), Councilor(name='조현옥', jdName='무소속'), Councilor(name='정회기', jdName='더불어민주당'), Councilor(name='신용식', jdName='더불어민주당'), Councilor(name='서영배', jdName='더불어민주당'), Councilor(name='박철수', jdName='더불어민주당'), Councilor(name='김보라', jdName='더불어민주당'), Councilor(name='김정임', jdName='더불어민주당'), Councilor(name='박문섭', jdName='더불어민주당')]
+169 번째 의회에는, 9 명의 의원이 있습니다.
+최용만 is name
+
+박준엽 is name
+
+장명영 is name
+
+조관훈 is name
+
+최현동 is name
+
+이기범 is name
+
+정철원 is name
+
+최용호 is name
+
+박은서 is name
+
+| 169 | [Councilor(name='최용만', jdName='더불어민주당'), Councilor(name='박준엽', jdName='더불어민주당'), Councilor(name='장명영', jdName='더불어민주당'), Councilor(name='조관훈', jdName='무소속'), Councilor(name='최현동', jdName='더불어민주당'), Councilor(name='이기범', jdName='무소속'), Councilor(name='정철원', jdName='무소속'), Councilor(name='최용호', jdName='무소속'), Councilor(name='박은서', jdName='더불어민주당')]
+| 170 | 오류:  함수 구현에 실패한 웹페이지입니다.  링크 :  https://www.jangseong.go.kr/home/council/member/member_07
+| 171 | 오류:  함수 구현에 실패한 웹페이지입니다.  링크 :  https://www.gokseong.go.kr/council/subPage.do?menuNo=102001000000
+| 172 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://www.gurye.go.kr/assembly/subPage.do?menuNo=161001000000
+173 번째 의회에는, 12 명의 의원이 있습니다.
+이재학 is name
+
+김민열 is name
+
+전명숙 is name
+
+박규대 is name
+
+조영길 is name
+
+류제동 is name
+
+신건호 is name
+
+한승욱 is name
+
+박경석 is name
+
+김준곤 is name
+
+고건 is name
+
+김미경 is name
+
+| 173 | [Councilor(name='이재학', jdName='더불어민주당'), Councilor(name='김민열', jdName='더불어민주당'), Councilor(name='전명숙', jdName='더불어민주당'), Councilor(name='박규대', jdName='더불어민주당'), Councilor(name='조영길', jdName='더불어민주당'), Councilor(name='류제동', jdName='더불어민주당'), Councilor(name='신건호', jdName='무소속'), Councilor(name='한승욱', jdName='더불어민주당'), Councilor(name='박경석', jdName='무소속'), Councilor(name='김준곤', jdName='더불어민주당'), Councilor(name='고건', jdName='더불어민주당'), Councilor(name='김미경', jdName='더불어민주당')]
+| 174 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 175 | 오류: 'NoneType' object has no attribute 'pf_elt'
+176 번째 의회에는, 7 명의 의원이 있습니다.
+| 176 | [Councilor(name='왕윤채', jdName='더불어민주당'), Councilor(name='홍정임', jdName='더불어민주당'), Councilor(name='김재승', jdName='더불어민주당'), Councilor(name='윤재숙', jdName='더불어민주당'), Councilor(name='유금렬', jdName='더불어민주당'), Councilor(name='백광철', jdName='더불어민주당'), Councilor(name='김기용', jdName='더불어민주당')]
+| 177 | 오류: Request to http://www.gangjincl.go.kr/index.do?PID=010 timed out.
+| 178 | 오류: Expecting value: line 20 column 1 (char 38)
+정보 없음이 포함되어 있습니다.
+| 179 | [Councilor(name='김석순', jdName='정당 정보 없음'), Councilor(name='서해근', jdName='정당 정보 없음'), Councilor(name='김영환', jdName='정당 정보 없음'), Councilor(name='박상정', jdName='정당 정보 없음'), Councilor(name='이성옥', jdName='정당 정보 없음'), Councilor(name='민경매', jdName='정당 정보 없음'), Councilor(name='박종부', jdName='정당 정보 없음'), Councilor(name='민찬혁', jdName='정당 정보 없음'), Councilor(name='민홍일', jdName='정당 정보 없음'), Councilor(name='이기우', jdName='정당 정보 없음'), Councilor(name='이상미', jdName='정당 정보 없음')]
+| 180 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 181 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://www.yacl.go.kr/source/korean/member/active.html
+| 182 | [Councilor(name='김경현', jdName='더불어민주당'), Councilor(name='임동현', jdName='더불어민주당'), Councilor(name='김봉성', jdName='더불어민주당'), Councilor(name='임윤택', jdName='더불어민주당'), Councilor(name='임현수', jdName='더불어민주당'), Councilor(name='김원중', jdName='무소속'), Councilor(name='박쌍배', jdName='무소속'), Councilor(name='이호성', jdName='더불어민주당'), Councilor(name='정은경', jdName='더불어민주당')]
+| 183 | [Councilor(name='강필구', jdName='더불어민주당'), Councilor(name='김한균', jdName='더불어민주당'), Councilor(name='장영진', jdName='무소속'), Councilor(name='정선우', jdName='더불어민주당'), Councilor(name='조일영', jdName='더불어민주당'), Councilor(name='김강헌', jdName='더불어민주당'), Councilor(name='임영민', jdName='더불어민주당')]
+| 184 | [Councilor(name='윤앵랑', jdName='더불어민주당'), Councilor(name='정현웅', jdName='더불어민주당'), Councilor(name='김은영', jdName='더불어민주당'), Councilor(name='김영인', jdName='더불어민주당'), Councilor(name='정현웅', jdName='더불어민주당'), Councilor(name='정철희', jdName='무소속'), Councilor(name='이남오', jdName='더불어민주당'), Councilor(name='정현웅', jdName='더불어민주당'), Councilor(name='김영인', jdName='더불어민주당'), Councilor(name='김은영', jdName='더불어민주당'), Councilor(name='정현웅', jdName='더불어민주당'), Councilor(name='김영인', jdName='더불어민주당')]
+| 185 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  http://council.shinan.go.kr/home/council/activity/activity_14/page.wscms
+| 186 | [Councilor(name='김만호 (金萬鎬)', jdName='더불어민주당'), Councilor(name='김민정 (金民正)', jdName='국민의힘'), Councilor(name='김상민 (金尙玟)', jdName='더불어민주당'), Councilor(name='김상백 (金相伯)', jdName='국민의힘'), Councilor(name='김상일 (金相日)', jdName='국민의힘'), Councilor(name='김성조 (金誠祚)', jdName='무소속'), Councilor(name='김영헌 (金鈴憲)', jdName='국민의힘'), Councilor(name='김은주 (金殷柱)', jdName='더불어민주당'), Councilor(name='김일만 (金一萬)', jdName='국민의힘'), Councilor(name='김종익 (金鍾翼)', jdName='국민의힘'), Councilor(name='김철수 (金哲秀)', jdName='무소속'), Councilor(name='김하영 (金夏英)', jdName='국민의힘'), Councilor(name='김형철 (金亨哲)', jdName='국민의힘'), Councilor(name='박칠용 (朴七龍)', jdName='더불어민주당'), Councilor(name='박희정 (朴嬉靜)', jdName='더불어민주당'), Councilor(name='방진길 (方鎭吉)', jdName='국민의힘'), Councilor(name='배상신 (裵相信)', jdName='국민의힘'), Councilor(name='백강훈 (白剛勳)', jdName='국민의힘'), Councilor(name='백인규 (白仁圭)', jdName='국민의힘'), Councilor(name='안병국 (安柄國 )', jdName='국민의힘'), Councilor(name='양윤제 (梁允濟)', jdName='국민의힘'), Councilor(name='이다영 (李多英)', jdName='국민의힘'), Councilor(name='이상범 (李相釩)', jdName='국민의힘'), Councilor(name='이재진 (李在鎭)', jdName='국민의힘'), Councilor(name='임주희 (林柱希)', jdName='국민의힘'), Councilor(name='전주형 (全珠亨)', jdName='더불어민주당'), Councilor(name='정원석 (鄭沅奭)', jdName='국민의힘'), Councilor(name='조민성 (趙民成)', jdName='국민의힘'), Councilor(name='조영원 (趙泳源)', jdName='무소속'), Councilor(name='최광열 (崔光烈)', jdName='더불어민주당'), Councilor(name='최해곤 (崔海坤)', jdName='국민의힘'), Councilor(name='함정호 (咸晸皓)', jdName='국민의힘'), Councilor(name='황찬규 (黃贊圭)', jdName='국민의힘')]
+| 187 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://www.ulleung.go.kr/council/page.do?mnu_uid=724&
+| 188 | [Councilor(name='김항규', jdName='국민의힘'), Councilor(name='이경희', jdName='국민의힘'), Councilor(name='최영기', jdName='국민의힘'), Councilor(name='최재필', jdName='국민의힘'), Councilor(name='임활', jdName='국민의힘'), Councilor(name='정종문', jdName='국민의힘'), Councilor(name='오상도', jdName='국민의힘'), Councilor(name='이진락', jdName='국민의힘'), Councilor(name='주동열', jdName='국민의힘'), Councilor(name='이철우', jdName='국민의힘'), Councilor(name='정성룡', jdName='국민의힘'), Councilor(name='이락우', jdName='국민의힘'), Councilor(name='정원기', jdName='국민의힘'), Councilor(name='김동해', jdName='무소속'), Councilor(name='김소현', jdName='국민의힘'), Councilor(name='박광호', jdName='국민의힘'), Councilor(name='이동협', jdName='국민의힘'), Councilor(name='정희택', jdName='국민의힘'), Councilor(name='김종우', jdName='국민의힘'), Councilor(name='이강희', jdName='더불어민주당'), Councilor(name='한순희', jdName='국민의힘')]
+정보 없음이 포함되어 있습니다.
+| 189 | [Councilor(name='이명기', jdName='정당 정보 없음'), Councilor(name='오세길', jdName='정당 정보 없음'), Councilor(name='이승우', jdName='정당 정보 없음'), Councilor(name='김세호', jdName='정당 정보 없음'), Councilor(name='박근혜', jdName='정당 정보 없음'), Councilor(name='정재정', jdName='정당 정보 없음'), Councilor(name='박대하', jdName='정당 정보 없음'), Councilor(name='윤영수', jdName='정당 정보 없음'), Councilor(name='나영민', jdName='정당 정보 없음'), Councilor(name='배형태', jdName='정당 정보 없음'), Councilor(name='진기상', jdName='정당 정보 없음'), Councilor(name='이복상', jdName='정당 정보 없음'), Councilor(name='김석조', jdName='정당 정보 없음'), Councilor(name='이상욱', jdName='정당 정보 없음'), Councilor(name='임동규', jdName='정당 정보 없음'), Councilor(name='박복순', jdName='정당 정보 없음'), Councilor(name='우지연', jdName='정당 정보 없음')]
+| 190 | [Councilor(name='김새롬', jdName=': 더불어민주당'), Councilor(name='우창하', jdName=': 국민의힘'), Councilor(name='권기윤', jdName=': 국민의힘'), Councilor(name='정복순', jdName=': 더불어민주당'), Councilor(name='권기탁', jdName=': 국민의힘'), Councilor(name='김순중', jdName=': 더불어민주당'), Councilor(name='권기익', jdName=': 국민의힘'), Councilor(name='이재갑', jdName=': 무소속'), Councilor(name='김창현', jdName=': 국민의힘'), Councilor(name='임태섭', jdName=': 무소속'), Councilor(name='김호석', jdName=': 무소속'), Councilor(name='박치선', jdName=': 국민의힘'), Councilor(name='손광영', jdName=': 무소속'), Councilor(name='안유안', jdName=': 국민의힘'), Councilor(name='김경도', jdName=': 국민의힘'), Councilor(name='김상진', jdName=': 국민의힘'), Councilor(name='김정림', jdName=': 더불어민주당'), Councilor(name='여주희', jdName=': 국민의힘')]
+| 191 | [Councilor(name='강승수', jdName='국민의힘'), Councilor(name='김근한', jdName='국민의힘'), Councilor(name='김낙관', jdName='국민의힘'), Councilor(name='김민성', jdName='국민의힘'), Councilor(name='김영길', jdName='국민의힘'), Councilor(name='김영태', jdName='국민의힘'), Councilor(name='김원섭', jdName='국민의힘'), Councilor(name='김재우', jdName='더불어민주당'), Councilor(name='김정도', jdName='국민의힘'), Councilor(name='김춘남', jdName='국민의힘'), Councilor(name='박교상', jdName='국민의힘'), Councilor(name='박세채', jdName='국민의힘'), Councilor(name='소진혁', jdName='국민의힘'), Councilor(name='신용하', jdName='더불어민주당'), Councilor(name='안주찬', jdName='국민의힘'), Councilor(name='양진오', jdName='국민의힘'), Councilor(name='이명희', jdName='국민의힘'), Councilor(name='이상호', jdName='더불어민주당'), Councilor(name='이정희', jdName='국민의힘'), Councilor(name='이지연', jdName='더불어민주당'), Councilor(name='장미경', jdName='국민의힘'), Councilor(name='장세구', jdName='국민의힘'), Councilor(name='정지원', jdName='국민의힘'), Councilor(name='추은희', jdName='더불어민주당'), Councilor(name='허민근', jdName='국민의힘')]
+| 192 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 193 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 194 | [Councilor(name='강경모', jdName='국민의힘'), Councilor(name='강효구', jdName='국민의힘'), Councilor(name='김세경', jdName='국민의힘'), Councilor(name='김익상', jdName='국민의힘'), Councilor(name='김호', jdName='무소속'), Councilor(name='박광덕', jdName='국민의힘'), Councilor(name='박점숙', jdName='국민의힘'), Councilor(name='박주형', jdName='국민의힘'), Councilor(name='성성호', jdName='국민의힘'), Councilor(name='신순화', jdName='국민의힘'), Councilor(name='안경숙', jdName='국민의힘'), Councilor(name='안창수', jdName='무소속'), Councilor(name='이경옥', jdName='국민의힘'), Councilor(name='정길수', jdName='더불어민주당'), Councilor(name='정석용', jdName='무소속'), Councilor(name='진태종', jdName='국민의힘'), Councilor(name='한구홍', jdName='국민의힘')]
+| 195 | [Councilor(name='황재용', jdName='국민의힘'), Councilor(name='서정식', jdName='국민의힘'), Councilor(name='고상범', jdName='국민의힘'), Councilor(name='이정걸', jdName='국민의힘'), Councilor(name='김경환', jdName='국민의힘'), Councilor(name='박춘남', jdName='국민의힘'), Councilor(name='진후진', jdName='국민의힘'), Councilor(name='남기호', jdName='국민의힘'), Councilor(name='신성호', jdName='국민의힘'), Councilor(name='김영숙', jdName='국민의힘')]
+| 196 | [Councilor(name='강경탁', jdName='국민의힘'), Councilor(name='강영구', jdName='국민의힘'), Councilor(name='김홍년', jdName='국민의힘'), Councilor(name='박재길', jdName='국민의힘'), Councilor(name='신향순', jdName='국민의힘'), Councilor(name='안양숙', jdName='국민의힘'), Councilor(name='이동화', jdName='더불어민주당'), Councilor(name='장삼규', jdName='무소속'), Councilor(name='최병욱', jdName='국민의힘')]
+| 197 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://www.gbgsc.go.kr/source2018/korean/member/active4.html
+| 198 | [Councilor(name='김효태', jdName='국민의힘'), Councilor(name='김규봉', jdName='국민의힘'), Councilor(name='이승민', jdName='무소속'), Councilor(name='박성곤', jdName='국민의힘'), Councilor(name='이수연', jdName='국민의힘'), Councilor(name='김태이', jdName='국민의힘'), Councilor(name='전종율', jdName='국민의힘')]
+| 199 | 오류: Request to http://council.goryeong.go.kr/kr/member/active.do timed out.
+| 200 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://www.sjcouncil.go.kr/source/korean/member/active.html
+| 201 | [Councilor(name='심청보', jdName='국민의힘'), Councilor(name='배성도', jdName='국민의힘'), Councilor(name='오종열', jdName='국민의힘'), Councilor(name='이상승', jdName='국민의힘'), Councilor(name='구정회', jdName='더불어민주당'), Councilor(name='이창훈', jdName='무소속'), Councilor(name='권선호', jdName='국민의힘'), Councilor(name='김태희', jdName='국민의힘'), Councilor(name='오용만', jdName='국민의힘'), Councilor(name='박남희', jdName='국민의힘')]
+| 202 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 203 | [Councilor(name='김광호', jdName='국민의힘'), Councilor(name='지무진', jdName='국민의힘'), Councilor(name='황무용', jdName='국민의힘'), Councilor(name='최훈식', jdName='국민의힘'), Councilor(name='박화자', jdName='국민의힘'), Councilor(name='김현찬', jdName='국민의힘'), Councilor(name='배재봉', jdName='국민의힘'), Councilor(name='오호열', jdName='국민의힘'), Councilor(name='김민주', jdName='국민의힘'), Councilor(name='우칠윤', jdName='국민의힘'), Councilor(name='박선희', jdName='국민의힘'), Councilor(name='이경원', jdName='국민의힘')]
+| 204 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://council.cs.go.kr/00004296/00006255.web
+| 205 | 오류: ('Received response with content-encoding: gzip, but failed to decode it.', error('Error -3 while decompressing data: incorrect data check'))
+| 206 | [Councilor(name='손덕수', jdName='국민의힘'), Councilor(name='김성철', jdName='국민의힘'), Councilor(name='김성호', jdName='국민의힘'), Councilor(name='김은희', jdName='국민의힘'), Councilor(name='김일규', jdName='국민의힘'), Councilor(name='배재현', jdName='국민의힘'), Councilor(name='신정희', jdName='국민의힘')]
+| 207 | 오류:  지난번 확인 시, 정당 정보 등이 홈페이지에 없었습니다.             다시 확인해보시겠어요?  링크 :  https://www.bonghwa.go.kr/open.content/council/member/introduce/
+| 208 | [Councilor(name='임승필', jdName='국민의힘'), Councilor(name='김정희', jdName='국민의힘'), Councilor(name='안순자', jdName='무소속'), Councilor(name='장유덕', jdName='무소속'), Councilor(name='박영길', jdName='무소속'), Councilor(name='임동인', jdName='국민의힘'), Councilor(name='황현철', jdName='국민의힘'), Councilor(name='김복남', jdName='국민의힘')]
+정보 없음이 포함되어 있습니다.
+| 209 | [Councilor(name='강창석', jdName='정당 정보 없음'), Councilor(name='구점득', jdName='정당 정보 없음'), Councilor(name='권성현', jdName='정당 정보 없음'), Councilor(name='김경수', jdName='정당 정보 없음'), Councilor(name='김경희', jdName='정당 정보 없음'), Councilor(name='김남수', jdName='정당 정보 없음'), Councilor(name='김묘정', jdName='정당 정보 없음'), Councilor(name='김미나', jdName='정당 정보 없음'), Councilor(name='김상현', jdName='정당 정보 없음'), Councilor(name='김수혜', jdName='정당 정보 없음'), Councilor(name='김영록', jdName='정당 정보 없음'), Councilor(name='김우진', jdName='정당 정보 없음'), Councilor(name='김이근', jdName='정당 정보 없음'), Councilor(name='김헌일', jdName='정당 정보 없음'), Councilor(name='김혜란', jdName='정당 정보 없음'), Councilor(name='남재욱', jdName='정당 정보 없음'), Councilor(name='문순규', jdName='정당 정보 없음'), Councilor(name='박강우', jdName='정당 정보 없음'), Councilor(name='박선애', jdName='정당 정보 없음'), Councilor(name='박승엽', jdName='정당 정보 없음'), Councilor(name='박해정', jdName='정당 정보 없음'), Councilor(name='백승규', jdName='정당 정보 없음'), Councilor(name='서명일', jdName='정당 정보 없음'), Councilor(name='서영권', jdName='정당 정보 없음'), Councilor(name='성보빈', jdName='정당 정보 없음'), Councilor(name='손태화', jdName='정당 정보 없음'), Councilor(name='심영석', jdName='정당 정보 없음'), Councilor(name='안상우', jdName='정당 정보 없음'), Councilor(name='오은옥', jdName='정당 정보 없음'), Councilor(name='이우완', jdName='정당 정보 없음'), Councilor(name='이원주', jdName='정당 정보 없음'), Councilor(name='이정희', jdName='정당 정보 없음'), Councilor(name='이종화', jdName='정당 정보 없음'), Councilor(name='이천수', jdName='정당 정보 없음'), Councilor(name='이해련', jdName='정당 정보 없음'), Councilor(name='전홍표', jdName='정당 정보 없음'), Councilor(name='정길상', jdName='정당 정보 없음'), Councilor(name='정순욱', jdName='정당 정보 없음'), Councilor(name='진형익', jdName='정당 정보 없음'), Councilor(name='최은하', jdName='정당 정보 없음'), Councilor(name='최정훈', jdName='정당 정보 없음'), Councilor(name='한상석', jdName='정당 정보 없음'), Councilor(name='한은정', jdName='정당 정보 없음'), Councilor(name='홍용채', jdName='정당 정보 없음'), Councilor(name='황점복', jdName='정당 정보 없음')]
+| 210 | [Councilor(name='강묘영', jdName='국민의힘'), Councilor(name='강진철', jdName='국민의힘'), Councilor(name='김형석', jdName='국민의힘'), Councilor(name='박미경', jdName='국민의힘'), Councilor(name='박종규', jdName='국민의힘'), Councilor(name='박재식', jdName='더불어민주당'), Councilor(name='서정인', jdName='더불어민주당'), Councilor(name='신서경', jdName='더불어민주당'), Councilor(name='신현국', jdName='국민의힘'), Councilor(name='백승흥', jdName='국민의힘'), Councilor(name='양해영', jdName='국민의힘'), Councilor(name='오경훈', jdName='국민의힘'), Councilor(name='윤성관', jdName='더불어민주당'), Councilor(name='이규섭', jdName='더불어민주당'), Councilor(name='임기향', jdName='국민의힘'), Councilor(name='전종현', jdName='더불어민주당'), Councilor(name='정용학', jdName='국민의힘'), Councilor(name='최민국', jdName='국민의힘'), Councilor(name='최신용', jdName='국민의힘'), Councilor(name='최지원', jdName='더불어민주당'), Councilor(name='최호연', jdName='국민의힘'), Councilor(name='황진선', jdName='국민의힘')]
+| 211 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 212 | [Councilor(name='김석한', jdName='국민의힘'), Councilor(name='김원순', jdName='더불어민주당'), Councilor(name='김향숙', jdName='국민의힘'), Councilor(name='김희태', jdName='더불어민주당'), Councilor(name='우정욱', jdName='국민의힘'), Councilor(name='이쌍자', jdName='무소속'), Councilor(name='이정숙', jdName='더불어민주당'), Councilor(name='정영환', jdName='국민의힘'), Councilor(name='최두임', jdName='국민의힘'), Councilor(name='최을석', jdName='국민의힘'), Councilor(name='허옥희', jdName='국민의힘')]
+| 213 | [Councilor(name='강명수', jdName='국민의힘'), Councilor(name='구정화', jdName='국민의힘'), Councilor(name='김규헌', jdName='국민의힘'), Councilor(name='김민규', jdName='국민의힘'), Councilor(name='박병준', jdName='더불어민주당'), Councilor(name='박정웅', jdName='국민의힘'), Councilor(name='윤형근', jdName='국민의힘'), Councilor(name='임봉남', jdName='국민의힘'), Councilor(name='전재석', jdName='국민의힘'), Councilor(name='정서연', jdName='더불어민주당'), Councilor(name='진배근', jdName='국민의힘'), Councilor(name='최동환', jdName='더불어민주당')]
+| 214 | [Councilor(name='김동관', jdName=' 국민의힘'), Councilor(name='박은희', jdName=' 더불어민주당'), Councilor(name='송유인', jdName=' 더불어민주당'), Councilor(name='조팔도', jdName=' 국민의힘'), Councilor(name='이철훈', jdName=' 더불어민주당'), Councilor(name='김유상', jdName=' 국민의힘'), Councilor(name='김창수', jdName=' 국민의힘'), Councilor(name='조종현', jdName=' 더불어민주당'), Councilor(name='정준호', jdName=' 더불어민주당'), Councilor(name='최정헌', jdName=' 국민의힘'), Councilor(name='류명열', jdName=' 국민의힘'), Councilor(name='정희열', jdName=' 더불어민주당'), Councilor(name='김주섭', jdName=' 국민의힘'), Councilor(name='안선환', jdName=' 국민의힘'), Councilor(name='강영수', jdName=' 더불어민주당'), Councilor(name='주정영', jdName=' 더불어민주당'), Councilor(name='김진규', jdName=' 더불어민주당'), Councilor(name='김영서', jdName=' 국민의힘'), Councilor(name='송재석', jdName=' 국민의힘'), Councilor(name='최동석', jdName=' 더불어민주당'), Councilor(name='허윤옥', jdName=' 국민의힘'), Councilor(name='김진일', jdName=' 국민의힘'), Councilor(name='허수정', jdName=' 더불어민주당'), Councilor(name='배현주', jdName=' 국민의힘'), Councilor(name='이미애', jdName=' 국민의힘')]
+| 215 | [Councilor(name='정정규', jdName='국민의힘'), Councilor(name='석희억', jdName='국민의힘'), Councilor(name='정무권', jdName='더불어민주당'), Councilor(name='강창오', jdName='국민의힘'), Councilor(name='정희정', jdName='국민의힘'), Councilor(name='허홍', jdName='국민의힘'), Councilor(name='최남기', jdName='국민의힘'), Councilor(name='박진수', jdName='국민의힘'), Councilor(name='이현우', jdName='더불어민주당'), Councilor(name='손제란', jdName='국민의힘'), Councilor(name='배심교', jdName='더불어민주당'), Councilor(name='조영도', jdName='국민의힘'), Councilor(name='박원태', jdName='국민의힘')]
+| 216 | [Councilor(name='김동수', jdName='국민의힘'), Councilor(name='김두호', jdName='더불어민주당'), Councilor(name='김선민', jdName='국민의힘'), Councilor(name='김영규', jdName='국민의힘'), Councilor(name='노재하', jdName='더불어민주당'), Councilor(name='박명옥', jdName='더불어민주당'), Councilor(name='신금자', jdName='국민의힘'), Councilor(name='안석봉', jdName='더불어민주당'), Councilor(name='양태석', jdName='무소속'), Councilor(name='윤부원', jdName='국민의힘'), Councilor(name='이미숙', jdName='더불어민주당'), Councilor(name='이태열', jdName='더불어민주당'), Councilor(name='정명희', jdName='국민의힘'), Councilor(name='조대용', jdName='국민의힘'), Councilor(name='최양희', jdName='더불어민주당'), Councilor(name='한은진', jdName='더불어민주당')]
+| 217 | []
+| 218 | [Councilor(name='정금효', jdName='더불어민주당'), Councilor(name='조용국', jdName='국민의힘'), Councilor(name='이만호', jdName='국민의힘'), Councilor(name='조만제', jdName='국민의힘'), Councilor(name='문석주', jdName='무소속'), Councilor(name='곽세훈', jdName='국민의힘'), Councilor(name='황철용', jdName='국민의힘'), Councilor(name='김영동', jdName='더불어민주당'), Councilor(name='안말남', jdName='국민의힘')]
+| 219 | [Councilor(name='김재한', jdName=' 국민의힘'), Councilor(name='신은숙', jdName=' 국민의힘'), Councilor(name='하종혜', jdName=' 국민의힘'), Councilor(name='홍성두', jdName=' 국민의힘'), Councilor(name='노영도', jdName=' 국민의힘'), Councilor(name='김종호', jdName=' 국민의힘'), Councilor(name='이동훈', jdName=' 국민의힘'), Councilor(name='이승렬', jdName=' 국민의힘'), Councilor(name='박상재', jdName=' 국민의힘'), Councilor(name='이가은', jdName=' 국민의힘'), Councilor(name='김정선', jdName=' 더불어민주당')]
+| 220 | []
+| 221 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 222 | [Councilor(name='����ö ', jdName='�Ҽ����� : ��������'), Councilor(name='������ ', jdName='�Ҽ����� : ��������'), Councilor(name='������ ', jdName='�Ҽ����� : ��������'), Councilor(name='������ ', jdName='�Ҽ����� : ��������'), Councilor(name='���1⁄2� ', jdName='�Ҽ����� : ��������'), Councilor(name='�念�� ', jdName='�Ҽ����� : ��������'), Councilor(name='���ູ ', jdName='�Ҽ����� : ��������'), Councilor(name='������ ', jdName='�Ҽ����� : ��������'), Councilor(name='������ ', jdName='�Ҽ����� : ���Ҿ���ִ�'), Councilor(name='�Ϻ��� ', jdName='�Ҽ����� : ���Ҿ���ִ�')]
+| 223 | 오류: HTTPSConnectionPool(host='council.hygn.go.kr', port=443): Max retries exceeded with url: /kr/member/active.do (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+<li>
+<div class="img">
+<img alt="심재화 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053816102_WXyEcF.jpg">
+</img></div>
+<div class="content">
+<span class="name">심재화</span>
+<ul>
+<li><span>직위</span>의장</li>
+<li><span>선거구</span>산청군 다선거구</li>
+<li><span>연락처</span>055-970-7400</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=84" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="조병식 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053609799_RCiaAu.jpg"/>
+</div>
+<div class="content">
+<span class="name">조병식</span>
+<ul>
+<li><span>직위</span>부의장</li>
+<li><span>선거구</span>산청군 가선거구</li>
+<li><span>연락처</span>055-970-7401</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=85" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="송정덕 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628054349971_ialtDV.jpg"/>
+</div>
+<div class="content">
+<span class="name">송정덕</span>
+<ul>
+<li><span>직위</span>의회운영위원장</li>
+<li><span>선거구</span>산청군 비례대표</li>
+<li><span>연락처</span>055-970-7421</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=86" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="정명순 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053137161_FDORMZ.jpg"/>
+</div>
+<div class="content">
+<span class="name">정명순</span>
+<ul>
+<li><span>직위</span>총무위원장</li>
+<li><span>선거구</span>산청군 가선거구</li>
+<li><span>연락처</span>055-970-7422</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=87" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="조균환 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053858919_EEjSTa.jpg"/>
+</div>
+<div class="content">
+<span class="name">조균환</span>
+<ul>
+<li><span>직위</span>산업건설위원장</li>
+<li><span>선거구</span>산청군 다선거구</li>
+<li><span>연락처</span>055-970-7423</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=88" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="이만규 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628054244287_jyBdHs.jpg"/>
+</div>
+<div class="content">
+<span class="name">이만규</span>
+<ul>
+<li><span>직위</span>의원</li>
+<li><span>선거구</span>산청군 라선거구</li>
+<li><span>연락처</span>055-970-7424</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=89" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="신동복 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053600212_ztDKPr.jpg"/>
+</div>
+<div class="content">
+<span class="name">신동복</span>
+<ul>
+<li><span>직위</span>의원</li>
+<li><span>선거구</span>산청군 나선거구</li>
+<li><span>연락처</span>055-970-7428</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=90" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="안천원 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628054318211_ZasUvU.jpg"/>
+</div>
+<div class="content">
+<span class="name">안천원</span>
+<ul>
+<li><span>직위</span>의원</li>
+<li><span>선거구</span>산청군 라선거구</li>
+<li><span>연락처</span>055-970-7426</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=91" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="김수한 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053742601_wkJSLb.jpg"/>
+</div>
+<div class="content">
+<span class="name">김수한</span>
+<ul>
+<li><span>직위</span>의원</li>
+<li><span>선거구</span>산청군 나선거구</li>
+<li><span>연락처</span>055-970-7425</li>
+<li><span>소속정당</span>국민의힘</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=92" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+<li>
+<div class="img">
+<img alt="김두수 의원의 사진입니다." src="/DATA/assem/thumb/t_20180628053953143_hFeXSd.jpg"/>
+</div>
+<div class="content">
+<span class="name">김두수</span>
+<ul>
+<li><span>직위</span>의원</li>
+<li><span>선거구</span>산청군 다선거구</li>
+<li><span>연락처</span>055-970-7427</li>
+<li><span>소속정당</span>더불어민주당</li>
+</ul>
+<div class="text_right">
+<a class="btn type2 small icon blank" href="./selectAssemblyDetail.do?key=2224&amp;assemNo=93" target="_blank" title="새창열림">바로가기</a>
+</div>
+</div>
+</li>
+| 224 | [Councilor(name='심재화', jdName='국민의힘'), Councilor(name='조병식', jdName='국민의힘'), Councilor(name='송정덕', jdName='국민의힘'), Councilor(name='정명순', jdName='국민의힘'), Councilor(name='조균환', jdName='국민의힘'), Councilor(name='이만규', jdName='국민의힘'), Councilor(name='신동복', jdName='국민의힘'), Councilor(name='안천원', jdName='국민의힘'), Councilor(name='김수한', jdName='국민의힘'), Councilor(name='김두수', jdName='더불어민주당')]
+| 225 | 오류: 'NoneType' object has no attribute 'pf_elt'
+| 226 | [Councilor(name='권영식(權永植)', jdName='무소속'), Councilor(name='박안나(朴顔娜)', jdName='국민의힘'), Councilor(name='이한신(李漢信)', jdName='국민의 힘'), Councilor(name='신명기(辛明其)', jdName='국민의 힘'), Councilor(name='조삼술(趙三述)', jdName='국민의힘'), Councilor(name='이종철(李鍾哲)', jdName='국민의힘'), Councilor(name='정봉훈(鄭奉勳)', jdName='국민의힘'), Councilor(name='성종태(成宗泰)', jdName='국민의힘'), Councilor(name='신경자(辛景子)', jdName='더불어민주당'), Councilor(name='김문숙(金文淑)', jdName='국민의힘'), Councilor(name='이태련(李珆孌)', jdName='국민의힘')]
+| 총 실행 횟수: 226 | 에러: [18, 29, 106, 111, 116, 121, 122, 123, 139, 145, 146, 154, 155, 156, 157, 160, 162, 167, 170, 171, 172, 174, 175, 178, 179, 180, 181, 185, 187, 189, 192, 193, 197, 200, 202, 204, 205, 207, 209, 211, 221, 223, 225], 총 43회 | 그 중 정보 없음 횟수: 16 | 타임아웃 횟수: 3 |
